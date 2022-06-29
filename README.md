@@ -12,7 +12,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 ### Detailed changelist
 
 - Melee: Damage 100 -> 60
-- CAR: Damage 25 -> 12
+- CAR: Damage 25 -> 13
 - R-97: Damage 20 -> 12
 - Alternator: Damage 35 -> 20
 - Volt: Damage 25 -> 15
