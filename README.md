@@ -5,8 +5,9 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 
 - All SMGs<br>
 - All ARs<br>
-- Spitfire<br>
-- EVA<br>
+- Spitfire and Devotion<br>
+- EVA-8<br>
+- DMR<br>
 - P2016 and RE-45 (it would be silly if they outperformed the primary guns, wouldn't it)<br>
 
 ### Detailed changelist
