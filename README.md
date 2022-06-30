@@ -20,7 +20,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - P2016: Damage 30 -> 20
 - RE-45: Damage 20 -> 12
 - R-101 and R-201: Damage 25 -> 17
-- Flatline: Damage 30 -> 17
+- Flatline: Damage 30 -> 20
 - G2: Increased falloff
 - Hemlok: Damage 33 -> 25
 - Spitfire: Damage 35 -> 25
