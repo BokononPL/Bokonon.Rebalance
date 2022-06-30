@@ -27,4 +27,5 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Devotion: Damage 25 -> 20
 - DMR: Damage 55 -> 45
 - EVA-8: Damage 200 -> 140
+- SMR: Explosion damage 15 -> 20
 - Minor bugfixes and adjustments
