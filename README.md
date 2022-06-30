@@ -25,6 +25,6 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Hemlok: Damage 33 -> 25
 - Spitfire: Damage 35 -> 25
 - Devotion: Damage 25 -> 20
-- DMR: Increased falloff
+- DMR: Damage 55 -> 50, Increased falloff
 - EVA-8: Damage 200 -> 140
 - Minor bugfixes and adjustments
