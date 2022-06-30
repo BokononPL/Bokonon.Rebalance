@@ -108,7 +108,7 @@ WeaponData
 
 		"aimassist_adspull_weaponclass"					"precise"
 
-		"damage_near_value"   							"17"//35
+		"damage_near_value"   							"20"//35
 		"damage_far_value"								"15"//30
 		"damage_near_value_titanarmor"					"100"
 		"damage_far_value_titanarmor" 					"80"
