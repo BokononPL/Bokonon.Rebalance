@@ -221,7 +221,7 @@ WeaponData
 	"zoom_scope_frac_end"							"0.7"//0.85"
 	"zoom_angle_shift_pitch"						"0.3"
 	"zoom_angle_shift_yaw"							"0.65"
-	"rechamber_time"  								"0.8" // "1.60"
+	"rechamber_time"  								"1.60"
 	"reload_time" 									"2.5"
 	"reload_time_late1" 							"1.52"
 	"reload_time_late2" 							"0.63"
