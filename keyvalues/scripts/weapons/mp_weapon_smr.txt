@@ -88,7 +88,7 @@ WeaponData
 	"npc_miss_fast_player"							"0"
 
 	//If increasing explosion radius check if SMR_DamagedPlayerOrNPC is still necessary. It's manually applying rodeo splash damage.
-	"explosion_inner_radius"  						"10"
+	"explosion_inner_radius"  						"12"
 	"explosionradius" 								"16"
 	"impulse_force"   								"1000"
 
@@ -478,8 +478,8 @@ WeaponData
 		{
 			"is_burn_mod"		"1"
 
-			"damage_near_value"   							"55"
-			"damage_far_value"								"55"
+			"damage_near_value"   							"75"
+			"damage_far_value"								"75"
 			"explosion_damage"								"30"
 			"damage_near_value_titanarmor"					"250"
 			"damage_far_value_titanarmor" 					"250"
