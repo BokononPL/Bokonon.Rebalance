@@ -94,10 +94,10 @@ WeaponData
 	"projectile_damages_owner"						"0"
 	"projectile_ricochet_max_count"					"0"
 
-	"pass_through_depth"							"10000" // "64"
+	"pass_through_depth"							"64"
 	"pass_through_damage_preserved_scale"			"1"
 
-	"bolt_speed"									"1000" // "10000"
+	"bolt_speed"									"10000"
 
 	// Damage - When Used by Players
 	"damage_flags"									"DF_BULLET | DF_KNOCK_BACK | DF_DISMEMBERMENT"
@@ -117,7 +117,7 @@ WeaponData
 	{
 		"ammo_default_total"							"40"
 		"ammo_stockpile_max"							"40"
-		"ammo_no_remove_from_stockpile"					"1"
+		"ammo_no_remove_from_stockpile"					"0" // "1"
 		"ammo_min_to_fire"								"1"
 
 
@@ -213,7 +213,7 @@ WeaponData
 	"dof_nearDepthEnd"								"9"
 
 	// Behavior
-	"fire_rate"   									"10" // "1.85"
+	"fire_rate"   									"4" // "1.85"
 	"zoom_time_in"									"0.4"//0.48"//1.1"//1.25"//0.45"
 	"zoom_time_out"   								"0.3"
 	"zoom_fov"										"26.26" //3x zoom
@@ -221,7 +221,7 @@ WeaponData
 	"zoom_scope_frac_end"							"0.7"//0.85"
 	"zoom_angle_shift_pitch"						"0.3"
 	"zoom_angle_shift_yaw"							"0.65"
-	"rechamber_time"  								"1.60"
+	"rechamber_time"  								"1.30" // "1.60"
 	"reload_time" 									"2.5"
 	"reload_time_late1" 							"1.52"
 	"reload_time_late2" 							"0.63"
@@ -230,7 +230,7 @@ WeaponData
 	"reloadempty_time_late2"						"1.75"
 	"reloadempty_time_late3"						"0.55"
 	"holster_time"									"0.5"
-	"deploy_time" 									"0.2" // "0.8"
+	"deploy_time" 									"0.4" // "0.8"
 	"lower_time"  									"0.25"
 	"raise_time"  									"0.3"
 	"vortex_refire_behavior"  						"bullet"
