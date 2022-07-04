@@ -80,9 +80,9 @@ WeaponData
 	MP_BASE
 	{
 		"ammo_display"									"bar"
-		"ammo_stockpile_max"							"650"
-		"ammo_clip_size"   								"650"
-		"ammo_default_total"							"650"
+		"ammo_stockpile_max"							"200"
+		"ammo_clip_size"   								"200"
+		"ammo_default_total"							"200"
 		"ammo_per_shot"									"200"
 		"ammo_min_to_fire"								"200"
 
@@ -107,7 +107,7 @@ WeaponData
 		"damage_heavyarmor_nontitan_scale"				"0.5"
 		"sound_weapon_ready"							"HUD_ordinance_meter_replenished_1P"
 
-		"grenade_ignition_time"                         "0.75"
+		// "grenade_ignition_time"                         "0.75"
 	}
 
 	SP_BASE
