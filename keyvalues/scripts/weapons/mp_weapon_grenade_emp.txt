@@ -107,7 +107,7 @@ WeaponData
 		"damage_heavyarmor_nontitan_scale"				"0.5"
 		"sound_weapon_ready"							"HUD_ordinance_meter_replenished_1P"
 
-		// "grenade_ignition_time"                         "0.75"
+		"grenade_ignition_time"                         "0.75"
 	}
 
 	SP_BASE
@@ -150,8 +150,8 @@ WeaponData
 	// Behavior
 
 	"cooldown_type"									"ammo_instant"
-	"grenade_fuse_time"								"3.25"
-	"max_cook_time"									"3.25"
+	"grenade_fuse_time"								"0.0"
+	"max_cook_time"									"4.5"
 	"fire_rate"   									"2"
 	"deploy_time" 									"0.5"
 	"vortex_refire_behavior"  						"grenade"
