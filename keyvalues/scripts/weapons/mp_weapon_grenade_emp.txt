@@ -81,8 +81,8 @@ WeaponData
 	{
 		"ammo_display"									"bar"
 		"ammo_stockpile_max"							"650"
-		"ammo_clip_size"   								"200"
-		"ammo_default_total"							"200"
+		"ammo_clip_size"   								"650"
+		"ammo_default_total"							"650"
 		"ammo_per_shot"									"200"
 		"ammo_min_to_fire"								"200"
 
