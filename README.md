@@ -29,4 +29,5 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - EVA-8: Damage 200 -> 140
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
+- Kraber: 20% shorter rechamber time
 - Minor bugfixes and adjustments
