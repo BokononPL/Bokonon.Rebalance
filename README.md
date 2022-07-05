@@ -6,9 +6,16 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - All SMGs<br>
 - All ARs<br>
 - Spitfire and Devotion<br>
-- EVA-8<br>
+- EVA-8 and Mozambique<br>
 - DMR<br>
+- Melee<br>
 - P2016 and RE-45 (it would be silly if they outperformed the primary guns, wouldn't it)<br>
+
+### The following weapons have been buffed:
+- Kraber<br>
+- Double Take<br>
+- B3 Wingman<br>
+- SMR<br>
 
 ### Detailed changelist
 
@@ -27,7 +34,9 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Devotion: Damage 25 -> 20
 - DMR: Damage 55 -> 45
 - EVA-8: Damage 200 -> 140
+- Mozambique: Damage 30 -> 20
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
 - Kraber: 20% shorter rechamber time
+- Double Take: Fire rate 2.0 -> 2.5
 - Minor bugfixes and adjustments
