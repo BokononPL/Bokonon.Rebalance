@@ -34,9 +34,9 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Devotion: Damage 25 -> 20
 - DMR: Damage 55 -> 45
 - EVA-8: Damage 200 -> 140
-- Mozambique: Damage 30 -> 20
+- Mozambique: Damage 30 -> 25
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
-- Kraber: 20% shorter rechamber time
-- Double Take: Fire rate 2.0 -> 2.5
+- Kraber: 15% shorter rechamber time
+- Double Take: Fire rate 2.0 -> 2.4
 - Minor bugfixes and adjustments
