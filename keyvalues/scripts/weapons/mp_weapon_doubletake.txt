@@ -247,7 +247,7 @@ WeaponData
 	"dof_nearDepthEnd"								"5.366"
 
 	// Behavior
-	"fire_rate"   									"2.5"//2"
+	"fire_rate"   									"2.4"//2"
 	"zoom_time_in"									"0.4"//0.35"
 	"zoom_time_out"   								"0.3"
 	"zoom_fov"										"26.26"
