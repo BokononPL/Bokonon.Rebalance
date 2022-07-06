@@ -100,8 +100,8 @@ WeaponData
 		"critical_hit"									"1"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"20"
-		"damage_far_value"								"17"
+		"damage_near_value"   							"25"
+		"damage_far_value"								"20"
 		"damage_near_value_titanarmor"					"30"
 		"damage_far_value_titanarmor" 					"20"
 	//	"explosion_damage"								"50"	// 150
