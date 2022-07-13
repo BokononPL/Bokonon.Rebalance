@@ -106,7 +106,7 @@ WeaponData
 
 	"bolt_speed"									"10000"//12000"
 
-	"bolt_spread_max"								"1.0"//"0.015"//0.030"//0.05"
+	"bolt_spread_max"								"0.015"//0.030"//0.05"
 	"bolt_spread_min"								"0.015"//0.030"//0.025"
 
 	"damage_flags"									"DF_BULLET | DF_KNOCK_BACK | DF_DISMEMBERMENT"
@@ -283,10 +283,10 @@ WeaponData
 	"sprint_fractional_anims"						"0"
 
 	// Spread
-	"spread_stand_hip" 								"0"
-	"spread_stand_hip_run" 							"10"
-	"spread_crouch_hip"								"8"
-	"spread_air_hip"	   							"10"
+	"spread_stand_hip" 								"8"
+	"spread_stand_hip_run" 							"8"
+	"spread_crouch_hip"								"6"
+	"spread_air_hip"	   							"8"
 
 	"spread_crouch_ads"  							"0"
 	"spread_stand_ads"  							"0"
