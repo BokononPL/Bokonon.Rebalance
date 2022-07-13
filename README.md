@@ -16,14 +16,15 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Double Take<br>
 - B3 Wingman<br>
 - SMR<br>
+- Arc Grenade<br>
 
 ### Detailed changelist
 
 - Melee: Damage 100 -> 60
-- CAR: Damage 25 -> 13
-- R-97: Damage 20 -> 12
+- CAR: Damage 25 -> 14
+- R-97: Damage 20 -> 13
 - Alternator: Damage 35 -> 20
-- Volt: Damage 25 -> 15
+- Volt: Damage 25 -> 16
 - P2016: Damage 30 -> 20
 - RE-45: Damage 20 -> 12
 - R-101 and R-201: Damage 25 -> 17
@@ -39,4 +40,5 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - B3 Wingman: Fire rate 2.6 -> 3.7
 - Kraber: 15% shorter rechamber time
 - Double Take: Fire rate 2.0 -> 2.4
+- Arc Grenade: Explodes on impact
 - Minor bugfixes and adjustments
