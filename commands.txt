@@ -1,3 +1,4 @@
 # '!' and '=' are special characters
 !nerfs=melee, all SMGs, all ARs, spitfire, devotion, eva-8, mozambique, dmr
 !buffs=kraber, double take, b3 wingman, smr
+!changelist=github.com/BokononPL/Bokonon.Rebalance
