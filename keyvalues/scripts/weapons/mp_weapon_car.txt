@@ -389,7 +389,7 @@ WeaponData
 	"sway_turn_down_rotate_pitch_zoomed"			"-0.07"
 
 	// WeaponED Unhandled Key/Values and custom script Key/Values
-	"spread_stand_hip"								"0.0"
+	"spread_stand_hip"								"20.0"
 	"spread_stand_hip_run"							"0.0"
 	"spread_stand_hip_sprint"                       "0.0"
 	"spread_crouch_hip"   							"0.0"
