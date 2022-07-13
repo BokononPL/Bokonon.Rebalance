@@ -110,13 +110,13 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"broad"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"13"
-		"damage_far_value"								"8"
+		"damage_near_value"   							"14"
+		"damage_far_value"								"9"
 		"damage_near_value_titanarmor"					"70"
 		"damage_far_value_titanarmor" 					"35"
 		"damage_rodeo" 									"90"
 
-   	 	"damage_very_far_value"							"5"
+   	 	"damage_very_far_value"							"6"
    		"damage_very_far_distance"						"3000"
 
 		"damage_headshot_scale"							"1.5"
