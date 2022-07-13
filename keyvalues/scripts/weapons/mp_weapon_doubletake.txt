@@ -106,7 +106,7 @@ WeaponData
 
 	"bolt_speed"									"10000"//12000"
 
-	"bolt_spread_max"								"0.015"//0.030"//0.05"
+	"bolt_spread_max"								"0.6"//"0.015"//0.030"//0.05"
 	"bolt_spread_min"								"0.015"//0.030"//0.025"
 
 	"damage_flags"									"DF_BULLET | DF_KNOCK_BACK | DF_DISMEMBERMENT"
