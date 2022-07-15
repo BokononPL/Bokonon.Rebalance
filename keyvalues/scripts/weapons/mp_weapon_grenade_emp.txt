@@ -92,8 +92,8 @@ WeaponData
 
 		"explosion_damage"								"40"
 		"explosion_damage_heavy_armor"					"400"
-        "explosion_inner_radius"  						"100"
-        "explosionradius" 								"280"
+        "explosion_inner_radius"  						"120"
+        "explosionradius" 								"300"
 
 		"npc_explosion_damage"							"50"
 		"npc_explosion_damage_heavy_armor"				"350"
