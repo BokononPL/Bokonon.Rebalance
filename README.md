@@ -12,11 +12,12 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - P2016 and RE-45 (it would be silly if they outperformed the primary guns, wouldn't it)<br>
 
 ### The following weapons have been buffed:
-- Kraber<br>
 - Double Take<br>
 - B3 Wingman<br>
 - SMR<br>
 - Arc Grenade<br>
+- Thunderbolt<br>
+- Pulse Blade<br>
 
 ### Detailed changelist
 
@@ -38,7 +39,8 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Mozambique: Damage 30 -> 25
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
-- Kraber: 15% shorter rechamber time
 - Double Take: Fire rate 2.0 -> 2.4
 - Arc Grenade: Explodes on impact
+- Thunderbolt: Pilot direct hit damage 70 -> 100
+- Pulse Blade: 50% faster recharge
 - Minor bugfixes and adjustments
