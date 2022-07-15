@@ -89,7 +89,7 @@ WeaponData
 	"critical_hit"									"1"
 
 	"damage_near_distance"							"600"
-	"damage_far_distance" 							"1500"
+	"damage_far_distance" 							"1300"
 	"red_crosshair_range" 							"1000"
 
 	"aimassist_adspull_zoomStart"					"0.05"
@@ -111,7 +111,7 @@ WeaponData
 
 		// Damage - When Used by Players
 		"damage_near_value"   							"14"
-		"damage_far_value"								"9"
+		"damage_far_value"								"7"
 		"damage_near_value_titanarmor"					"70"
 		"damage_far_value_titanarmor" 					"35"
 		"damage_rodeo" 									"90"
