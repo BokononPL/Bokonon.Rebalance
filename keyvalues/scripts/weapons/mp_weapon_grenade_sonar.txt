@@ -94,7 +94,7 @@ WeaponData
 		"ammo_min_to_fire"								"200"
 
 		// Regen Ammo
-		"regen_ammo_refill_rate"						"80"
+		"regen_ammo_refill_rate"						"12"
 		"regen_ammo_refill_start_delay"					"0.0"
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
