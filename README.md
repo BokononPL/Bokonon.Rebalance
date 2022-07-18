@@ -17,6 +17,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - SMR<br>
 - Arc Grenade<br>
 - Thunderbolt<br>
+- Archer<br>
 - Pulse Blade<br>
 
 ### Detailed changelist
