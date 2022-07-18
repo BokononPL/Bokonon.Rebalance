@@ -42,5 +42,6 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Double Take: Fire rate 2.0 -> 2.4
 - Arc Grenade: Explodes on impact
 - Thunderbolt: Pilot direct hit damage 70 -> 100
+- Archer: Dumbfire enabled, reduced splash
 - Pulse Blade: 50% faster recharge
 - Minor bugfixes and adjustments
