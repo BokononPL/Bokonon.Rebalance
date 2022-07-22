@@ -584,8 +584,8 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
 	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
-		distanceToTarget += 130
-		damageScaler *= 0.6
+		distanceToTarget += 240 //130
+		// damageScaler *= 0.6
 
 	int extraMods = result.extraMods
 	float damageAmount = CalcWeaponDamage( owner, target, weapon, distanceToTarget, extraMods )
