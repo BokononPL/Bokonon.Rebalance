@@ -584,7 +584,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
 	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
-		distanceToTarget += 130
+		distanceToTarget += 100 //130
 		// damageScaler *= 0.7
 
 	int extraMods = result.extraMods
@@ -606,7 +606,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	float finalDamageAmount = damageAmount * coneScaler * damageScaler
 		
 	if ( !result.solidBodyHit )
-		finalDamageAmount = max((finalDamageAmount - 30.0), 2.0)
+		finalDamageAmount = max((finalDamageAmount - 20.0), 2.0)
 	//printt( "angle:", angle, "- coneScaler:", coneScaler, "- damageAmount:", damageAmount, "- damageScaler:", damageScaler, "  = finalDamageAmount:", finalDamageAmount )
 
 	// Calculate impulse force to apply based on damage
