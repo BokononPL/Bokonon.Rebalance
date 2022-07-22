@@ -9,7 +9,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - EVA-8 and Mozambique<br>
 - DMR<br>
 - Melee<br>
-- P2016 and RE-45 (it would be silly if they outperformed the primary guns, wouldn't it)<br>
+- P2016 and RE-45<br>
 
 ### The following weapons have been buffed:
 - Double Take<br>
@@ -23,13 +23,13 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 ### Detailed changelist
 
 - Melee: Damage 100 -> 60
-- CAR: Damage 25 -> 14
-- R-97: Damage 20 -> 13
+- CAR: Damage 25 -> 15
+- R-97: Damage 20 -> 14
 - Alternator: Damage 35 -> 22
 - Volt: Damage 25 -> 16
 - P2016: Damage 30 -> 20
-- RE-45: Damage 20 -> 12
-- R-101 and R-201: Damage 25 -> 20
+- RE-45: Damage 20 -> 13
+- R-101 and R-201: Damage 25 -> 18
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
 - Hemlok: Damage 33 -> 25
