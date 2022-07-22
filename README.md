@@ -18,6 +18,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Arc Grenade<br>
 - Thunderbolt<br>
 - Archer<br>
+- MGL<br>
 - Pulse Blade<br>
 
 ### Detailed changelist
@@ -36,7 +37,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Spitfire: Damage 35 -> 25
 - Devotion: Damage 25 -> 20
 - DMR: Damage 55 -> 45
-- EVA-8: Damage 200 -> 140
+- EVA-8: Damage 200 -> 160
 - Mozambique: Damage 30 -> 25
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
@@ -44,5 +45,6 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Arc Grenade: Explodes on impact
 - Thunderbolt: Pilot direct hit damage 70 -> 100
 - Archer: Dumbfire enabled, reduced splash
+- MGL: Explosion damage 35 -> 55
 - Pulse Blade: 50% faster recharge
 - Minor bugfixes and adjustments
