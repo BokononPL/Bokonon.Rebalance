@@ -8,6 +8,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Spitfire and Devotion<br>
 - EVA-8 and Mozambique<br>
 - DMR<br>
+- Gravity Star<br>
 - Melee<br>
 - P2016 and RE-45<br>
 
@@ -16,6 +17,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - B3 Wingman<br>
 - SMR<br>
 - Arc Grenade<br>
+- Satchel<br>
 - Thunderbolt<br>
 - Archer<br>
 - MGL<br>
@@ -43,6 +45,8 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - B3 Wingman: Fire rate 2.6 -> 3.7
 - Double Take: Fire rate 2.0 -> 2.4
 - Arc Grenade: Explodes on impact
+- Satchel: Pilot damage 125 -> 140
+- Gravity Star: 25% slower recharge
 - Thunderbolt: Pilot direct hit damage 70 -> 100
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 55
