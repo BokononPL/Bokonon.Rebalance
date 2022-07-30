@@ -31,7 +31,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Alternator: Damage 35 -> 22
 - Volt: Damage 25 -> 18
 - P2016: Damage 30 -> 20
-- RE-45: Damage 20 -> 13
+- RE-45: Damage 20 -> 12
 - R-101 and R-201: Damage 25 -> 18
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
@@ -49,6 +49,6 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Gravity Star: 25% slower recharge
 - Thunderbolt: Pilot direct hit damage 70 -> 100
 - Archer: Dumbfire enabled, reduced splash
-- MGL: Explosion damage 35 -> 55
+- MGL: Explosion damage 35 -> 60
 - Pulse Blade: 50% faster recharge
 - Minor bugfixes and adjustments
