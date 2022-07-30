@@ -92,8 +92,8 @@ WeaponData
 		"projectile_straight_radius_min"				"40"
 		"projectile_straight_radius_max"				"65"
 
-		"damage_near_value"   							"100"
-		"damage_far_value"								"100"
+		"damage_near_value"   							"120"
+		"damage_far_value"								"120"
 		"damage_near_value_titanarmor"					"2250"
 		"damage_far_value_titanarmor" 					"2250"
 		"explosion_damage"								"100"
@@ -203,7 +203,7 @@ WeaponData
 	"dof_nearDepthStart"							"3.683"
 	"dof_nearDepthEnd"								"6.652"
 
-	"explosion_inner_radius"  						"50" // "96"
+	"explosion_inner_radius"  						"60" // "96"
 	"explosionradius" 								"180"
 	"impulse_force"   								"10000"
 
