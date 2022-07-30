@@ -78,13 +78,13 @@ WeaponData
 	"fx_muzzle_flash_attach_scoped"					"muzzle_flash_scoped"
 
 	// Bolt info
-	"bolt_hitsize"									"3.0"
+	"bolt_hitsize"									"2.0"
 	"bolt_hitsize_grow1_time"						"0.035"
-	"bolt_hitsize_grow1_size"						"3.0"//"0.5"
+	"bolt_hitsize_grow1_size"						"100.0"
 	"bolt_hitsize_grow2_time"						"0.08"
-	"bolt_hitsize_grow2_size"						"5.0"//"1.0"
+	"bolt_hitsize_grow2_size"						"100.0"
 	"bolt_hitsize_growfinal_lerptime"				"0.18"
-	"bolt_hitsize_growfinal_size"					"10.0"//"2.0"
+	"bolt_hitsize_growfinal_size"					"500.0"
 
 	"bolt_gravity_enabled"							"1"
 	"bolt_gravity_amount"							"0.2500"//0.500"
