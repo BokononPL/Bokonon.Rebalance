@@ -106,7 +106,7 @@ WeaponData
 
 	"bolt_speed"									"10000"//12000"
 
-	"bolt_spread_max"								"0.6"//"0.015"//0.030"//0.05"
+	"bolt_spread_max"								"0.4"//"0.015"//0.030"//0.05"
 	"bolt_spread_min"								"0.015"//0.030"//0.025"
 
 	"damage_flags"									"DF_BULLET | DF_KNOCK_BACK | DF_DISMEMBERMENT"
@@ -247,7 +247,7 @@ WeaponData
 	"dof_nearDepthEnd"								"5.366"
 
 	// Behavior
-	"fire_rate"   									"2.4"//2"
+	"fire_rate"   									"2.0"//2"
 	"zoom_time_in"									"0.4"//0.35"
 	"zoom_time_out"   								"0.3"
 	"zoom_fov"										"26.26"
