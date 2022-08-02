@@ -116,8 +116,8 @@ WeaponData
 
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"20"
-		"damage_far_value"								"16"
+		"damage_near_value"   							"22"
+		"damage_far_value"								"18"
 		"damage_very_far_value"							"14"
 		"damage_near_value_titanarmor"					"80"
 		"damage_far_value_titanarmor" 					"60"
@@ -251,9 +251,9 @@ WeaponData
 	"spread_stand_hip_sprint"                       "2.0"
 	"spread_crouch_hip"   							"2.0"
 
-	"spread_stand_ads"  							"0" //"0.25"
-	"spread_crouch_ads"  							"0" //"0.1"
-	"spread_air_ads"   								"0" //"0.5"
+	"spread_stand_ads"  							"0.4" //"0.25"
+	"spread_crouch_ads"  							"0.2" //"0.1"
+	"spread_air_ads"   								"0.5" //"0.5"
 
 	"spread_kick_on_fire_stand_hip"   				"0"
 	"spread_kick_on_fire_crouch_hip"  				"0"
