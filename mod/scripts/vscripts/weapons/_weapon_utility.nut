@@ -583,8 +583,8 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	// Determine how much damage to do based on distance
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
-	//if ( !result.solidBodyHit ) // non solid hits take 1 blast more
-		//distanceToTarget += 150 //130
+	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
+		distanceToTarget += 70 //130
 		// damageScaler *= 0.7
 
 	int extraMods = result.extraMods
