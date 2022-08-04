@@ -607,7 +607,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		
 	//if ( !result.solidBodyHit )
 		//finalDamageAmount = max((finalDamageAmount - 20.0), 2.0)
-	finalDamageAmount = max((finalDamageAmount - 15.0 * angle), 2.0)
+	finalDamageAmount = max((finalDamageAmount - 8.0 * angle), 2.0)
 	//printt( "angle:", angle, "- coneScaler:", coneScaler, "- damageAmount:", damageAmount, "- damageScaler:", damageScaler, "  = finalDamageAmount:", finalDamageAmount )
 
 	// Calculate impulse force to apply based on damage
