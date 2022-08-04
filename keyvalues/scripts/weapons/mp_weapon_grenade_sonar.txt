@@ -94,7 +94,7 @@ WeaponData
 		"ammo_min_to_fire"								"200"
 
 		// Regen Ammo
-		"regen_ammo_refill_rate"						"12"
+		"regen_ammo_refill_rate"						"20"
 		"regen_ammo_refill_start_delay"					"0.0"
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
@@ -119,7 +119,7 @@ WeaponData
 	// Behavior
 	"cooldown_type"									"ammo_instant"
 	"grenade_fuse_time"								"0"
-	"grenade_ignition_time"                         "4.5"
+	"grenade_ignition_time"                         "1.5"//"4.5"
 	"grenade_death_drop_velocity_scale"				"0.05"
 	"grenade_death_drop_velocity_extraUp"			"0.10"
 	"fire_rate"   									"2"
