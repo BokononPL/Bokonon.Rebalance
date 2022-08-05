@@ -585,7 +585,6 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 
 	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
 		distanceToTarget += 100//130
-		// damageScaler *= 0.7
 
 	int extraMods = result.extraMods
 	float damageAmount = CalcWeaponDamage( owner, target, weapon, distanceToTarget, extraMods )
@@ -604,11 +603,8 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 
 	// Calculate the final damage abount to inflict on the target. Also scale it by damageScaler which may have been passed in by script ( used by alt fire mode on titan shotgun to fire multiple shells )
 	//float finalDamageAmount = damageAmount * coneScaler * damageScaler
-	float finalDamageAmount = max((damageAmount - (12.0 * angle)), 2.0) * coneScaler * damageScaler
+	float finalDamageAmount = max((damageAmount - (10.0 * angle)), 2.0) * coneScaler * damageScaler
 		
-	//if ( !result.solidBodyHit )
-		//finalDamageAmount = max((finalDamageAmount - 20.0), 2.0)
-	//finalDamageAmount = max((finalDamageAmount - (12.0 * angle)), 2.0)
 	//printt( "angle:", angle, "- coneScaler:", coneScaler, "- damageAmount:", damageAmount, "- damageScaler:", damageScaler, "  = finalDamageAmount:", finalDamageAmount )
 
 	// Calculate impulse force to apply based on damage
