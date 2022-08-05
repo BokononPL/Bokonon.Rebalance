@@ -598,15 +598,13 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		//printt( "scaling vortex hitscan output damage by", numPellets, "pellets for", weaponNearDamageTitan, "damage vs titans" )
 	}
 
-	float coneScaler = 1.0
+	float coneScaler = max(1.0 - (angle * 0.2), 0.2)
 	//if ( angle > 0 )
 	//	coneScaler = GraphCapped( angle, (maxAngle * SHOTGUN_ANGLE_MIN_FRACTION), (maxAngle * SHOTGUN_ANGLE_MAX_FRACTION), SHOTGUN_DAMAGE_SCALE_AT_MIN_ANGLE, SHOTGUN_DAMAGE_SCALE_AT_MAX_ANGLE )
 
 	// Calculate the final damage abount to inflict on the target. Also scale it by damageScaler which may have been passed in by script ( used by alt fire mode on titan shotgun to fire multiple shells )
-	//float finalDamageAmount = damageAmount * coneScaler * damageScaler
-	print( "    angle:", angle )
-	print( "    value:", max((damageAmount - (12.0 * angle)), 2.0))
-	float finalDamageAmount = max((damageAmount - (12.0 * angle)), 2.0) * coneScaler * damageScaler
+	float finalDamageAmount = damageAmount * coneScaler * damageScaler
+	//float finalDamageAmount = max((damageAmount - (12.0 * angle)), 2.0) * coneScaler * damageScaler
 		
 	//if ( !result.solidBodyHit )
 		//finalDamageAmount = max((finalDamageAmount - 20.0), 2.0)
