@@ -21,7 +21,7 @@ global function OnProjectileCollision_weapon_grenade_sonar
 global function OnProjectileIgnite_weapon_grenade_sonar
 
 const asset FLASHEFFECT    = $"wpn_grenade_sonar_impact"
-const float SCAN_RANGE = 1200.0
+const float SCAN_RANGE = 800.0
 
 void function OnProjectileCollision_weapon_grenade_sonar( entity projectile, vector pos, vector normal, entity hitEnt, int hitbox, bool isCritical )
 {
