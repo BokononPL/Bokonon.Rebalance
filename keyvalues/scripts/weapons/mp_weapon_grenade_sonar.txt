@@ -71,7 +71,7 @@ WeaponData
 	"explosion_damage"								"0"
 	"explosion_damage_heavy_armor"					"0"
 	"explosion_inner_radius"  						"0"
-	"explosionradius" 								"1250"
+	"explosionradius" 								"125"
 	"impulse_force"   								"0"
 	"explosion_shake_radius"						"0"
 	"explosion_shake_amplitude"						"20"
