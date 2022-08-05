@@ -21,6 +21,7 @@ global function OnProjectileCollision_weapon_grenade_sonar
 global function OnProjectileIgnite_weapon_grenade_sonar
 
 const asset FLASHEFFECT    = $"wpn_grenade_sonar_impact"
+const float SCAN_RANGE = 500.0
 
 void function OnProjectileCollision_weapon_grenade_sonar( entity projectile, vector pos, vector normal, entity hitEnt, int hitbox, bool isCritical )
 {
@@ -98,7 +99,7 @@ void function SonarGrenadeThink( entity projectile )
 	array<entity> ents = []
 
 	//entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SONAR_GRENADE_RADIUS, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
-	entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, 200, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
+	entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SCAN_RANGE, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
 	SetTeam( trigger, team )
 	trigger.SetOwner( projectile.GetOwner() )
 
@@ -156,7 +157,7 @@ void function SonarGrenadeThink( entity projectile )
 		foreach ( player in players )
 		{
 			//Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SONAR_GRENADE_RADIUS )
-			Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, 200 )
+			Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SCAN_RANGE )
 		}
 
 		wait 1.3333
