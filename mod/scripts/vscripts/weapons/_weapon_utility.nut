@@ -584,7 +584,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
 	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
-		distanceToTarget += 100 //130
+		distanceToTarget += 100 + (angle * 100) //130
 		// damageScaler *= 0.7
 
 	int extraMods = result.extraMods
@@ -598,7 +598,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		//printt( "scaling vortex hitscan output damage by", numPellets, "pellets for", weaponNearDamageTitan, "damage vs titans" )
 	}
 
-	float coneScaler = max(1.0 - (angle * 0.2), 0.2)
+	float coneScaler = 1.0
 	//if ( angle > 0 )
 	//	coneScaler = GraphCapped( angle, (maxAngle * SHOTGUN_ANGLE_MIN_FRACTION), (maxAngle * SHOTGUN_ANGLE_MAX_FRACTION), SHOTGUN_DAMAGE_SCALE_AT_MIN_ANGLE, SHOTGUN_DAMAGE_SCALE_AT_MAX_ANGLE )
 
