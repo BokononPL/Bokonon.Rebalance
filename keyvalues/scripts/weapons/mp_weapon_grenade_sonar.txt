@@ -119,7 +119,7 @@ WeaponData
 	// Behavior
 	"cooldown_type"									"ammo_instant"
 	"grenade_fuse_time"								"0"
-	"grenade_ignition_time"                         "2.5"//"4.5"
+	"grenade_ignition_time"                         "4.5"
 	"grenade_death_drop_velocity_scale"				"0.05"
 	"grenade_death_drop_velocity_extraUp"			"0.10"
 	"fire_rate"   									"2"
