@@ -80,11 +80,11 @@ WeaponData
 	// Bolt info
 	"bolt_hitsize"									"0.0"
 	"bolt_hitsize_grow1_time"						"0.07"
-	"bolt_hitsize_grow1_size"						"0.0"//"0.5"
+	"bolt_hitsize_grow1_size"						"0.5"
 	"bolt_hitsize_grow2_time"						"0.14"
-	"bolt_hitsize_grow2_size"						"0.0"//"1.5"
+	"bolt_hitsize_grow2_size"						"1.5"
 	"bolt_hitsize_growfinal_lerptime"				"0.2"
-	"bolt_hitsize_growfinal_size"					"0.0"//"4.0"
+	"bolt_hitsize_growfinal_size"					"4.0"
 
 	"bolt_gravity_enabled"							"1"
 	"bolt_gravity_amount"							"0.2500"//0.500"
