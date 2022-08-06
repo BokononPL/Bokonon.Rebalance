@@ -93,7 +93,7 @@ WeaponData
 		"ammo_clip_size"   								"6"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"130"
+		"damage_near_value"   							"100"
 		"damage_far_value"								"2"
 		"damage_near_value_titanarmor"					"300"
 		"damage_far_value_titanarmor" 					"10"
