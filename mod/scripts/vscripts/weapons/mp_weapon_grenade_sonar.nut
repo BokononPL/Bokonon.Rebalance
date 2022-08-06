@@ -98,8 +98,8 @@ void function SonarGrenadeThink( entity projectile )
 	vector pulseOrigin = projectile.GetOrigin()
 	array<entity> ents = []
 
-	entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SONAR_GRENADE_RADIUS, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
-	//entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SCAN_RANGE, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
+	//entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SONAR_GRENADE_RADIUS, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
+	entity trigger = CreateTriggerRadiusMultiple( pulseOrigin, SCAN_RANGE, ents, TRIG_FLAG_START_DISABLED | TRIG_FLAG_NO_PHASE_SHIFT )
 	SetTeam( trigger, team )
 	trigger.SetOwner( projectile.GetOwner() )
 
@@ -156,8 +156,8 @@ void function SonarGrenadeThink( entity projectile )
 
 		foreach ( player in players )
 		{
-			Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SONAR_GRENADE_RADIUS )
-			//Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SCAN_RANGE )
+			//Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SONAR_GRENADE_RADIUS )
+			Remote_CallFunction_Replay( player, "ServerCallback_SonarPulseFromPosition", pulseOrigin.x, pulseOrigin.y, pulseOrigin.z, SCAN_RANGE )
 		}
 
 		wait 1.3333
