@@ -584,13 +584,15 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
 	if ( !result.solidBodyHit )
-		distanceToTarget += angle * angle * 20
+		distanceToTarget += 0
 
 	int extraMods = result.extraMods
 	float damageAmount = CalcWeaponDamage( owner, target, weapon, distanceToTarget, extraMods )
 		
 	if ( result.solidBodyHit )
-		damageAmount += 20
+		damageAmount += 10
+	else
+		damageAmount -= angle * angle * 2
 
 	// vortex needs to scale damage based on number of rounds absorbed
 	string className = weapon.GetWeaponClassName()
