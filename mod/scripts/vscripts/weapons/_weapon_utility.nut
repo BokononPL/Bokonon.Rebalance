@@ -605,7 +605,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		}
 		else
 		{	
-			damageAmount = max(2.0, (angle * angle * 2))
+			damageAmount = max(2.0, (damageAmount - angle * angle * 2))
 		}
 	}
 
