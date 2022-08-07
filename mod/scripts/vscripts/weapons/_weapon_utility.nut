@@ -595,13 +595,17 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	}
 	else
 	{
-		if ((angle > 2.0) && (distanceToTarget > 760))
+		if ((angle > 2.0) && (distanceToTarget > 850))
 		{
 			damageAmount = 0
 		}
+		else if (angle < 1.0)
+		{
+			damageAmount += 5
+		}
 		else
 		{	
-			damageAmount -= angle * angle * 2.5
+			damageAmount -= angle * angle * 2
 		}
 	}
 
