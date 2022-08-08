@@ -86,7 +86,7 @@ WeaponData
 		"ammo_min_to_fire"								"100"
 		"ammo_per_shot"									"100"
 		"ammo_stockpile_max"							"100"
-		"regen_ammo_refill_rate"						"5.5"
+		"regen_ammo_refill_rate"						"25.5"
 		"regen_ammo_refill_start_delay"					"0.0"
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
@@ -99,8 +99,8 @@ WeaponData
 		"explosion_damage_heavy_armor"					"800"
 		"npc_explosion_damage"							"150"
 		"npc_explosion_damage_heavy_armor"				"800"
-		"explosion_inner_radius"  						"50"
-		"explosionradius" 								"210"
+		"explosion_inner_radius"  						"250"
+		"explosionradius" 								"510"
 		"sound_weapon_ready"							"HUD_ordinance_meter_replenished_1P"
 	}
 
