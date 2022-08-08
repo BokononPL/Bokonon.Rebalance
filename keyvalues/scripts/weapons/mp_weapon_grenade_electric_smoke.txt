@@ -99,8 +99,8 @@ WeaponData
 		"explosion_damage_heavy_armor"					"800"
 		"npc_explosion_damage"							"150"
 		"npc_explosion_damage_heavy_armor"				"800"
-		"explosion_inner_radius"  						"250"
-		"explosionradius" 								"510"
+		"explosion_inner_radius"  						"100"
+		"explosionradius" 								"210"
 		"sound_weapon_ready"							"HUD_ordinance_meter_replenished_1P"
 	}
 
@@ -134,7 +134,7 @@ WeaponData
 	"cooldown_type"									"ammo_instant"
 	"grenade_fuse_time"								"0"
 	"max_cook_time"									"4.5"
-	"grenade_ignition_time"                         "5.0"
+	"grenade_ignition_time"                         "15.0"
 	"fire_rate"   									"2"
 	"deploy_time" 									"0.5"
 	"vortex_refire_behavior"  						"grenade"
