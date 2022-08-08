@@ -1,6 +1,6 @@
 {
 	"Name" : "Bokonon.Rebalance",
 	"Description" : "Rebalancing mod adjusting stats of weapons",
-	"Version": "1.5.10",
+	"Version": "1.5.11",
 	"LoadPriority": 1
 }
