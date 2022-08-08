@@ -583,11 +583,31 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	// Determine how much damage to do based on distance
 	float distanceToTarget = Distance( barrelPos, hitLocation )
 
-	if ( !result.solidBodyHit ) // non solid hits take 1 blast more
-		distanceToTarget += 100//130
+	if ( !result.solidBodyHit )
+		distanceToTarget += 0
 
 	int extraMods = result.extraMods
 	float damageAmount = CalcWeaponDamage( owner, target, weapon, distanceToTarget, extraMods )
+		
+	if ( result.solidBodyHit )
+	{
+		damageAmount = damageAmount * 1.2 + 10
+	}
+	else
+	{
+		if ((angle > 2.0) && (distanceToTarget > 760))
+		{
+			damageAmount = 0
+		}
+		else if (angle < 1.0)
+		{
+			damageAmount += 5
+		}
+		else
+		{	
+			damageAmount = max(2.0, (damageAmount - angle * angle * 2))
+		}
+	}
 
 	// vortex needs to scale damage based on number of rounds absorbed
 	string className = weapon.GetWeaponClassName()
@@ -602,8 +622,8 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 	//	coneScaler = GraphCapped( angle, (maxAngle * SHOTGUN_ANGLE_MIN_FRACTION), (maxAngle * SHOTGUN_ANGLE_MAX_FRACTION), SHOTGUN_DAMAGE_SCALE_AT_MIN_ANGLE, SHOTGUN_DAMAGE_SCALE_AT_MAX_ANGLE )
 
 	// Calculate the final damage abount to inflict on the target. Also scale it by damageScaler which may have been passed in by script ( used by alt fire mode on titan shotgun to fire multiple shells )
-	//float finalDamageAmount = damageAmount * coneScaler * damageScaler
-	float finalDamageAmount = max((damageAmount - (10.0 * angle)), 2.0) * coneScaler * damageScaler
+	float finalDamageAmount = damageAmount * coneScaler * damageScaler
+	//float finalDamageAmount = max((damageAmount - (10.0 * angle)), 2.0) * coneScaler * damageScaler
 		
 	//printt( "angle:", angle, "- coneScaler:", coneScaler, "- damageAmount:", damageAmount, "- damageScaler:", damageScaler, "  = finalDamageAmount:", finalDamageAmount )
 
