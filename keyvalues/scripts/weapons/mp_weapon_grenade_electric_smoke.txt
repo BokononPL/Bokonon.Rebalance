@@ -99,8 +99,8 @@ WeaponData
 		"explosion_damage_heavy_armor"					"800"
 		"npc_explosion_damage"							"150"
 		"npc_explosion_damage_heavy_armor"				"800"
-		"explosion_inner_radius"  						"140"
-		"explosionradius" 								"225"
+		"explosion_inner_radius"  						"160"
+		"explosionradius" 								"230"
 		"sound_weapon_ready"							"HUD_ordinance_meter_replenished_1P"
 	}
 
