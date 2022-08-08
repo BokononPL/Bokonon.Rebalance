@@ -16,6 +16,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - B3 Wingman<br>
 - SMR<br>
 - Arc Grenade<br>
+- Electric Smoke Grenade<br>
 - Satchel<br>
 - Thunderbolt<br>
 - Archer<br>
@@ -43,6 +44,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - SMR: Explosion damage 15 -> 20
 - B3 Wingman: Fire rate 2.6 -> 3.7
 - Arc Grenade: Explodes on impact
+- Electric Smoke Grenade: Increased damage
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
 - Thunderbolt: Pilot direct hit damage 70 -> 100
