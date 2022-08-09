@@ -32,7 +32,7 @@ WeaponData
 	"damage_type" 									"bullet"
 	"damage_near_distance"							"1500"		// 1500
 	"damage_far_distance" 							"3000"		// 3000
-	"critical_hit_damage_scale"						"1.5"		// 3.0
+	"critical_hit_damage_scale"						"2.0"		// 3.0
 
 	"low_ammo_sound_name_1"							"40mm_LowAmmo_Shot1"
 	"low_ammo_sound_name_2"							"40mm_LowAmmo_Shot2"
@@ -42,8 +42,8 @@ WeaponData
 	{
 		"damage_near_value"   						"200"
 		"damage_far_value"							"200"
-		"damage_near_value_titanarmor"				"330"
-		"damage_far_value_titanarmor" 				"330"
+		"damage_near_value_titanarmor"				"300"
+		"damage_far_value_titanarmor" 				"300"
 		"npc_explosion_damage"						"<KEEP_DEFAULT>"
 		"explosion_damage"							"40"
 		"explosion_damage_heavy_armor"				"200"
