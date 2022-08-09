@@ -239,7 +239,7 @@ WeaponData
 	"spread_stand_hip_run"							"1.0"
 	"spread_stand_hip_sprint"                       "1.0"
 	"spread_crouch_hip"   							"1.0"
-	"spread_air_hip"  								"1.0"
+	"spread_air_hip"  								"5.0"
 
 	"spread_stand_ads"								"0.0" //"0.35"
 	"spread_crouch_ads"   							"0.0" //"0.35"
