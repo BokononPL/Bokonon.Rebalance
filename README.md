@@ -15,6 +15,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 ### The following weapons have been buffed:
 - B3 Wingman<br>
 - SMR<br>
+- Softball<br>
 - Arc Grenade<br>
 - Electric Smoke Grenade<br>
 - Satchel<br>
@@ -27,9 +28,9 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 
 - Melee: Damage 100 -> 60
 - CAR: Damage 25 -> 15
-- R-97: Damage 20 -> 14
-- Alternator: Damage 35 -> 25
-- Volt: Damage 25 -> 18
+- R-97: Damage 20 -> 13
+- Alternator: Damage 35 -> 22
+- Volt: Damage 25 -> 20
 - P2016: Damage 30 -> 20
 - RE-45: Damage 20 -> 12
 - R-101 and R-201: Damage 25 -> 18
@@ -42,6 +43,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - EVA-8: Improved damage calculation
 - Mozambique: Damage 30 -> 25
 - SMR: Explosion damage 15 -> 20
+- Softball: Explosion damage 90 -> 100
 - B3 Wingman: Fire rate 2.6 -> 3.7
 - Arc Grenade: Explodes on impact
 - Electric Smoke Grenade: Increased damage
