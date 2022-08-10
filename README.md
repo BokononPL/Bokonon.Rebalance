@@ -1,6 +1,10 @@
 # Bokonon.Rebalance
 A mod for R2Northstar (Titanfall 2) balancing weapons.
 
+### Description
+The goal of this mod is to make many pilot builds and playstyles viable, as opposed to vanilla Titanfall 2 which is heavily dominated by CAR + Stim.<br>
+In a nutshell, what I want is for players to be able to play any gun they find the most fun, and not feel like they're handicapping themselves, like they made the "wrong" choice.
+
 ### The following weapons have been nerfed:
 
 - All SMGs<br>
