@@ -79,10 +79,10 @@ WeaponData
 		"damage_far_distance" 							"1200"
 		"damage_near_value"   							"250"
 		"damage_far_value"								"250"
-		"damage_near_value_titanarmor"					"550"
-		"damage_far_value_titanarmor"					"550"
-		"explosion_damage"								"100"
-		"explosion_damage_heavy_armor"					"350"
+		"damage_near_value_titanarmor"					"666"
+		"damage_far_value_titanarmor"					"666"
+		"explosion_damage"								"123"
+		"explosion_damage_heavy_armor"					"666"
 
 		"explosionradius" 								"120"
 
