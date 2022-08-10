@@ -62,8 +62,8 @@ void function OnWeaponActivate_weapon_rocket_launcher( entity weapon )
 		weapon.s.initialized <- true
 	}
 
-	SmartAmmo_SetAllowUnlockedFiring( weapon, IsMultiplayer() )
-
+	SmartAmmo_SetAllowUnlockedFiring( weapon, IsMultiplayer() && ( Riff_TitanAvailability() == eTitanAvailability.Never ) )
+	
 	bool hasGuidedMissiles = weapon.HasMod( "guided_missile" )
 
 	if ( !hasGuidedMissiles )
