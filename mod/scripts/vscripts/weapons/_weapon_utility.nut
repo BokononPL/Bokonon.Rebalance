@@ -2841,7 +2841,7 @@ void function PAS_CooldownReduction_OnKill( entity victim, entity attacker, var 
 			case "ammo_deployed":
 			case "ammo_timed":
 				int maxAmmo = weapon.GetWeaponPrimaryClipCountMax()
-				weapon.SetWeaponPrimaryClipCountNoRegenReset( min( maxAmmo, weapon.GetWeaponPrimaryClipCount() + ( maxAmmo / 4 ) ) )
+				weapon.SetWeaponPrimaryClipCountNoRegenReset( min( maxAmmo, weapon.GetWeaponPrimaryClipCount() + ( (2 * maxAmmo) / 5 ) ) )
 				break
 
 			case "chargeFrac":
