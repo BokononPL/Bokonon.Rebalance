@@ -679,9 +679,9 @@ global const OVERDRIVE_DAMAGE_LEVEL3 = 1.1
 // -- arc ball --
 
 
-global const BALL_LIGHTNING_BURST_NUM = 1
-global const BALL_LIGHTNING_BURST_DELAY = 0.1//0.4
-global const BALL_LIGHTNING_BURST_PAUSE = 0.3 //Only applied if BALL_LIGHTNING_BURST_NUM > 1
+global const BALL_LIGHTNING_BURST_NUM = 9//1
+global const BALL_LIGHTNING_BURST_DELAY = 0.2//0.4
+global const BALL_LIGHTNING_BURST_PAUSE = 0.1//0.3 //Only applied if BALL_LIGHTNING_BURST_NUM > 1
 
 global const BALL_LIGHTNING_ZAP_LIFETIME = 0.3
 global const BALL_LIGHTNING_ZAP_FX = $"P_wpn_arcball_beam"
