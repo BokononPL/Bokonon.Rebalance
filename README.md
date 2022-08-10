@@ -53,4 +53,5 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 60
 - Pulse Blade: 3x faster recharge, reduced sonar radius
+- Silenced weapons don't break cloak
 - Minor bugfixes and adjustments
