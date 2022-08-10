@@ -49,7 +49,7 @@ A mod for R2Northstar (Titanfall 2) balancing weapons.
 - Electric Smoke Grenade: Increased damage
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
-- Thunderbolt: Pilot direct hit damage 70 -> 100
+- Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 60
 - Pulse Blade: 3x faster recharge, reduced sonar radius
