@@ -429,8 +429,8 @@ WeaponData
 			"silenced"							"1"
 			"fire_sound_1_player_1p"			"weapon_shotgunpistol_fire_suppressed_1p"
 			"fire_sound_1_player_3p"			"weapon_shotgunpistol_fire_suppressed_3p"
-			"damage_near_value"   				"--10"
-			"damage_far_value"					"--7"
+			"damage_near_value"   				"--3"
+			"damage_far_value"					"--2"
 			//"bodygroup2_set"					"1"
 			
 			"breaks_cloak"					"0"
