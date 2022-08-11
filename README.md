@@ -12,6 +12,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Spitfire and Devotion<br>
 - EVA-8 and Mozambique<br>
 - DMR<br>
+- Frag Grenade<br>
 - Gravity Star<br>
 - Melee<br>
 - P2016 and RE-45<br>
@@ -53,6 +54,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Electric Smoke Grenade: Increased damage
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
+- Frag Grenade: Pilot damage 200 -> 150
 - Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 60
