@@ -32,7 +32,7 @@ WeaponData
 
 	MP_BASE
 	{
-		"explosion_damage"								"200"
+		"explosion_damage"								"150"
 		"explosion_damage_heavy_armor"					"800"
 
 		"npc_explosion_damage"							"125"
