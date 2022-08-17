@@ -10,7 +10,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - All SMGs<br>
 - All ARs<br>
 - Spitfire and Devotion<br>
-- EVA-8 and Mozambique<br>
+- All Shotguns<br>
 - DMR<br>
 - Frag Grenade<br>
 - Gravity Star<br>
@@ -47,6 +47,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - DMR: Increased falloff
 - EVA-8: Improved damage calculation
 - Mozambique: Damage 30 -> 25
+- Mastiff: Damage 20 -> 17
 - SMR: Explosion damage 15 -> 20
 - Softball: Explosion damage 90 -> 100
 - B3 Wingman: Fire rate 2.6 -> 3.7
