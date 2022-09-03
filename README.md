@@ -9,7 +9,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 
 - All SMGs<br>
 - All ARs<br>
-- Spitfire and Devotion<br>
+- All LMGs<br>
 - All Shotguns<br>
 - DMR<br>
 - Frag Grenade<br>
@@ -44,6 +44,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Hemlok: Damage 33 -> 25
 - Spitfire: Damage 35 -> 28
 - Devotion: Damage 25 -> 22
+- L-Star: Damage 25 -> 20
 - DMR: Increased falloff
 - EVA-8: Improved damage calculation
 - Mozambique: Damage 30 -> 25
@@ -51,7 +52,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - SMR: Explosion damage 15 -> 20
 - Softball: Explosion damage 90 -> 100
 - B3 Wingman: Fire rate 2.6 -> 3.7
-- Arc Grenade: Explodes on impact
+- Arc Grenade: Explodes on impact, reduced explosion
 - Electric Smoke Grenade: Increased damage
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
