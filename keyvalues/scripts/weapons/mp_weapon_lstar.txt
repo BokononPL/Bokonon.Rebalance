@@ -107,9 +107,9 @@ WeaponData
 	"bolt_hitsize_grow1_time"						"0.075"
 	"bolt_hitsize_grow1_size"						"5.0"
 	"bolt_hitsize_grow2_time"						"0.18"
-	"bolt_hitsize_grow2_size"						"7.0"
+	"bolt_hitsize_grow2_size"						"10.0"
 	"bolt_hitsize_growfinal_lerptime"				"0.18"
-	"bolt_hitsize_growfinal_size"					"7.0"
+	"bolt_hitsize_growfinal_size"					"10.0"
 
 	"bolt_gravity_enabled"							"1"
 
@@ -330,14 +330,14 @@ WeaponData
 
 		"aimassist_adspull_weaponclass"					"precise"
 
-		"damage_near_value"   							"25"
-		"damage_far_value"								"18"
+		"damage_near_value"   							"20"
+		"damage_far_value"								"17"
 		"damage_near_value_titanarmor"					"85"
 		"damage_far_value_titanarmor" 					"65"
 		"damage_rodeo" 									"100"
 		"explosion_damage"								"30"
-		"damage_near_distance"							"1800"
-		"damage_far_distance" 							"2000"
+		"damage_near_distance"							"2000"
+		"damage_far_distance" 							"2500"
 
 		"damage_headshot_scale"							"1.5"
 
