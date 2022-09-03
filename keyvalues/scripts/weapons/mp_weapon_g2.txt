@@ -227,16 +227,16 @@ WeaponData
 	"sprint_fractional_anims"						"0"
 
 	// Spread
-	"spread_stand_hip"								"6"
-	"spread_stand_hip_run"							"6"
-	"spread_stand_hip_sprint"                       "6"
+	"spread_stand_hip"								"8.0"
+	"spread_stand_hip_run"							"8.0"
+	"spread_stand_hip_sprint"                       "11"
 
 	"spread_stand_ads"								"0.0" //"0.10"
 	"spread_crouch_ads"   							"0.0" //"0.05"
 	"spread_air_ads"  								"0.0" //"0.5"
 
-	"spread_crouch_hip"   							"6"
-	"spread_air_hip"  								"6"
+	"spread_crouch_hip"   							"4.5"
+	"spread_air_hip"  								"11"
 
 	"spread_kick_on_fire_stand_hip"   				"0.7"
 	"spread_kick_on_fire_stand_ads"   				"0.075"
@@ -261,7 +261,7 @@ WeaponData
 	"viewkick_spring" 								"hemlok"
 
 	"viewkick_pitch_base" 							"-0.17"
-	"viewkick_pitch_random"   						"0.17"
+	"viewkick_pitch_random"   						"1.2"//"0.17"
 	"viewkick_pitch_softScale"						"0.3"
 	"viewkick_pitch_hardScale"						"1.0"
 
