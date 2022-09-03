@@ -260,8 +260,8 @@ WeaponData
 	// View Kick
 	"viewkick_spring" 								"hemlok"
 
-	"viewkick_pitch_base" 							"-5.0"//"-0.17"
-	"viewkick_pitch_random"   						"10.2"//"0.17"
+	"viewkick_pitch_base" 							"-3.0"//"-0.17"
+	"viewkick_pitch_random"   						"1.2"//"0.17"
 	"viewkick_pitch_softScale"						"0.3"
 	"viewkick_pitch_hardScale"						"1.0"
 
@@ -271,12 +271,12 @@ WeaponData
 	"viewkick_yaw_hardScale"  						"2.0"
 
 	"viewkick_roll_base"  							"0"
-	"viewkick_roll_randomMin" 						"0.0"//"0.4"
-	"viewkick_roll_randomMax" 						"0.0"//"0.6"
+	"viewkick_roll_randomMin" 						"0.1"//"0.4"
+	"viewkick_roll_randomMax" 						"0.2"//"0.6"
 	"viewkick_roll_softScale" 						"0.25"
 	"viewkick_roll_hardScale" 						"3"
 
-	"viewkick_hipfire_weaponFraction" 				"0.5"
+	"viewkick_hipfire_weaponFraction" 				"1.0"//"0.5"
 	"viewkick_hipfire_weaponFraction_vmScale" 		"0.5"
 	"viewkick_ads_weaponFraction" 					"0.3"
 	"viewkick_ads_weaponFraction_vmScale" 			"0.5"
