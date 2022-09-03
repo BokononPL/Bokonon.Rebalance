@@ -271,8 +271,8 @@ WeaponData
 	"viewkick_yaw_hardScale"  						"2.0"
 
 	"viewkick_roll_base"  							"0"
-	"viewkick_roll_randomMin" 						"0.0"//"0.4"
-	"viewkick_roll_randomMax" 						"0.0"//"0.6"
+	"viewkick_roll_randomMin" 						"0.4"
+	"viewkick_roll_randomMax" 						"0.6"
 	"viewkick_roll_softScale" 						"0.25"
 	"viewkick_roll_hardScale" 						"3"
 
