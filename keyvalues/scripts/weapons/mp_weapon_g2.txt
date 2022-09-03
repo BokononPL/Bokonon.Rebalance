@@ -278,7 +278,7 @@ WeaponData
 
 	"viewkick_hipfire_weaponFraction" 				"10.0"//"0.5"
 	"viewkick_hipfire_weaponFraction_vmScale" 		"0.5"
-	"viewkick_ads_weaponFraction" 					"0.3"
+	"viewkick_ads_weaponFraction" 					"0.0"//"0.3"
 	"viewkick_ads_weaponFraction_vmScale" 			"0.5"
 
 	//"viewkick_scale_firstshot_hipfire"			"0.0"
