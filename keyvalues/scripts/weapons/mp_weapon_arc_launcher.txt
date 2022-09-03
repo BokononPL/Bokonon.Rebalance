@@ -75,7 +75,7 @@ WeaponData
 	"bolt_gravity_enabled"							"0"
 
 	"explosion_inner_radius"  						"20"
-	"explosionradius" 								"250"
+	"explosionradius" 								"180"
 	"impulse_force"   								"1"
 
 	"damage_type" 									"burn"
