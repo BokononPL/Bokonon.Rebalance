@@ -260,7 +260,7 @@ WeaponData
 	// View Kick
 	"viewkick_spring" 								"hemlok"
 
-	"viewkick_pitch_base" 							"2.0"//"-0.17"
+	"viewkick_pitch_base" 							"-5.0"//"-0.17"
 	"viewkick_pitch_random"   						"10.2"//"0.17"
 	"viewkick_pitch_softScale"						"0.3"
 	"viewkick_pitch_hardScale"						"1.0"
