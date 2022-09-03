@@ -59,7 +59,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Frag Grenade: Pilot damage 200 -> 150
 - Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
-- MGL: Explosion damage 35 -> 60
+- MGL: Explosion damage 35 -> 75
 - Pulse Blade: 3x faster recharge, reduced sonar radius
 - Stim & Phase: 25% slower recharge
 - Silenced weapons don't break cloak
