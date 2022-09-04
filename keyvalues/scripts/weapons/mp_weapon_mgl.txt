@@ -80,8 +80,8 @@ WeaponData
 	"npc_self_explosion_safety"						"0"
 	"npc_miss_fast_player"							"0"
 
-	"explosion_inner_radius"  						"140"
-	"explosionradius" 								"230"
+	"explosion_inner_radius"  						"130"
+	"explosionradius" 								"240"
 	"impulse_force"   								"700"
 
 	"critical_hit"									"0"
