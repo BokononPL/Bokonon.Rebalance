@@ -41,7 +41,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - R-101 and R-201: Damage 25 -> 18
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
-- Hemlok: Damage 33 -> 25
+- Hemlok: Damage 33 -> 30
 - Spitfire: Damage 35 -> 28
 - Devotion: Damage 25 -> 22
 - L-Star: Damage 25 -> 20
