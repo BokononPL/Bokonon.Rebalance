@@ -206,13 +206,13 @@ WeaponData
 	// View Kick
 	"viewkick_spring" 								"magnum"
 
-	"viewkick_pitch_base" 							"-1.5"
-	"viewkick_pitch_random"   						".4"
+	"viewkick_pitch_base" 							"-0.5"
+	"viewkick_pitch_random"   						".2"
 	"viewkick_pitch_softScale"						"0.4"
 	"viewkick_pitch_hardScale"						"2.0"
 
-	"viewkick_yaw_base"   							"0.15"
-	"viewkick_yaw_random" 							"0.05"
+	"viewkick_yaw_base"   							"0.05"
+	"viewkick_yaw_random" 							"0.0"
 	"viewkick_yaw_softScale"  						"0.5"
 	"viewkick_yaw_hardScale"  						"1.5"
 
