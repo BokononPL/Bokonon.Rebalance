@@ -104,12 +104,12 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"precise"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"25"
+		"damage_near_value"   							"30"
 		"damage_far_value"								"20"
 		"damage_near_value_titanarmor"					"75"
 		"damage_far_value_titanarmor" 					"45"
 		"damage_rodeo" 									"170"
-		"damage_near_distance"							"1500"
+		"damage_near_distance"							"1400"
 		"damage_far_distance" 							"2000"
 
    	 	"damage_very_far_value"							"17"
