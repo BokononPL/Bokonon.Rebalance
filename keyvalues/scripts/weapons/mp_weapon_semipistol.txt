@@ -100,9 +100,9 @@ WeaponData
 		"damage_near_value_titanarmor"					"100"
 		"damage_far_value_titanarmor" 					"70"
 		"damage_rodeo" 									"190"
-		"damage_near_distance"							"750"  // match to search distance and red crosshair range
-		"damage_far_distance" 							"1000"
-   	 	"damage_very_far_value"							"9"
+		"damage_near_distance"							"1000"  // match to search distance and red crosshair range
+		"damage_far_distance" 							"1500"
+   	 	"damage_very_far_value"							"14"
    		"damage_very_far_distance"						"2000"
 
 		"damage_headshot_scale"							"2"
