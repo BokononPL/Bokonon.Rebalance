@@ -203,8 +203,8 @@ WeaponData
 	"dof_nearDepthStart"							"3.683"
 	"dof_nearDepthEnd"								"6.652"
 
-	"explosion_inner_radius"  						"70" // "96"
-	"explosionradius" 								"160"
+	"explosion_inner_radius"  						"60" // "96"
+	"explosionradius" 								"150"
 	"impulse_force"   								"10000"
 
 	"ammo_clip_size"   								"1"
