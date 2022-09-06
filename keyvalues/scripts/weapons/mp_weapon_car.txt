@@ -89,7 +89,7 @@ WeaponData
 	"critical_hit"									"1"
 
 	"damage_near_distance"							"400"
-	"damage_far_distance" 							"1300"
+	"damage_far_distance" 							"1100"
 	"red_crosshair_range" 							"1000"
 
 	"aimassist_adspull_zoomStart"					"0.05"
