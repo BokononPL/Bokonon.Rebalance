@@ -123,7 +123,7 @@ WeaponData
 	"damage_near_value"   							"75"
 	"damage_far_value"								"55"
 	"damage_near_distance"							"700"
-	"damage_far_distance" 							"1700"
+	"damage_far_distance" 							"1600"
 	"damage_near_value_titanarmor"					"300"
 	"damage_far_value_titanarmor" 					"250"
 	"damage_rodeo" 									"350"
@@ -168,7 +168,7 @@ WeaponData
 	"dof_nearDepthEnd"								"6.652"
 
 	// Behavior
-	"fire_rate"   									"3.0"
+	"fire_rate"   									"2.9"
 
 	"zoom_time_in"									"0.2"
 	"zoom_time_out"   								"0.15"
@@ -456,10 +456,10 @@ WeaponData
 		}
 		pas_fast_reload
 		{
-			"reload_time"								"*2.0"//"*0.7"
-			"reload_time_late1"							"*2.0"//"*0.7"
-			"reloadempty_time"							"*0.7"
-			"reloadempty_time_late1"					"*0.7"
+			"reload_time"								"*0.8"
+			"reload_time_late1"							"*0.8"
+			"reloadempty_time"							"*0.8"
+			"reloadempty_time_late1"					"*0.8"
 		}
 		pas_run_and_gun
 		{
@@ -496,9 +496,9 @@ WeaponData
 
 			"is_burn_mod"		"1"
 
-			"damage_near_value"   							"++20"
-			"damage_far_value"								"++20"
-   	 		"damage_very_far_value"							"++20"
+			"damage_near_value"   							"++15"
+			"damage_far_value"								"++10"
+   	 		"damage_very_far_value"							"++10"
 			"damage_near_value_titanarmor"					"450"
 			"damage_far_value_titanarmor" 					"400"
 		}
