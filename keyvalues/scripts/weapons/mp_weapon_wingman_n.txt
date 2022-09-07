@@ -122,7 +122,7 @@ WeaponData
 	// Damage - When Used by Players
 	"damage_near_value"   							"75"
 	"damage_far_value"								"55"
-	"damage_near_distance"							"1000"
+	"damage_near_distance"							"750"
 	"damage_far_distance" 							"2000"
 	"damage_near_value_titanarmor"					"300"
 	"damage_far_value_titanarmor" 					"250"
@@ -168,7 +168,7 @@ WeaponData
 	"dof_nearDepthEnd"								"6.652"
 
 	// Behavior
-	"fire_rate"   									"2.6"
+	"fire_rate"   									"3.6"
 
 	"zoom_time_in"									"0.2"
 	"zoom_time_out"   								"0.15"
