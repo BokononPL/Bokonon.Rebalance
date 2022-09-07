@@ -108,16 +108,16 @@ WeaponData
 		"damage_flags"									"DF_BULLET | DF_INSTANT | DF_DISMEMBERMENT"
 
 		"damage_near_value"   							"18"
-		"damage_far_value"								"18"
+		"damage_far_value"								"23"
 
 		"damage_near_value_titanarmor"					"70"
 		"damage_far_value_titanarmor" 					"50"
 
-		"damage_near_distance"							"1500"
-		"damage_far_distance" 							"2000"
+		"damage_near_distance"							"400"
+		"damage_far_distance" 							"410"
 
-	    "damage_very_far_value"							"15"
-	    "damage_very_far_distance"						"3500"
+	    "damage_very_far_value"							"18"
+	    "damage_very_far_distance"						"4500"
 
 
 
