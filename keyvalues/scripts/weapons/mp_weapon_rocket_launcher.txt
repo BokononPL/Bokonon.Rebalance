@@ -80,8 +80,8 @@ WeaponData
 	{
 		"explosion_damages_owner"						"1"
 
-		"ammo_default_total"							"7"
-		"ammo_stockpile_max"							"7"
+		"ammo_default_total"							"69"
+		"ammo_stockpile_max"							"100"
 		"ammo_no_remove_from_stockpile"					"0"
 		"ammo_min_to_fire"								"1"
 
@@ -92,8 +92,8 @@ WeaponData
 		"projectile_straight_radius_min"				"40"
 		"projectile_straight_radius_max"				"65"
 
-		"damage_near_value"   							"200"
-		"damage_far_value"								"200"
+		"damage_near_value"   							"600"
+		"damage_far_value"								"600"
 		"damage_near_value_titanarmor"					"2250"
 		"damage_far_value_titanarmor" 					"2250"
 		"explosion_damage"								"120"
@@ -431,10 +431,10 @@ WeaponData
 
 		pas_fast_reload
 		{
-			"reload_time"								"*0.7"
-			"reload_time_late1"							"*0.7"
-			"reloadempty_time"							"*0.7"
-			"reloadempty_time_late1"					"*0.7"
+			"reload_time"								"*0.8"
+			"reload_time_late1"							"*0.8"
+			"reloadempty_time"							"*0.8"
+			"reloadempty_time_late1"					"*0.8"
 		}
 
 		fast_lock
