@@ -102,14 +102,14 @@ WeaponData
 		"ammo_no_remove_from_clip"                      "0"
         "ammo_no_remove_from_stockpile"                 "1"
 
-		"damage_near_value"   							"50"
+		"damage_near_value"   							"20"
 		"damage_far_value"								"50"
 		"damage_near_value_titanarmor"					"115"
 		"damage_far_value_titanarmor" 					"115"
 		"explosion_damage"								"20"
 		"explosion_damage_heavy_armor"					"150"
-		"damage_near_distance"							"1800"
-		"damage_far_distance" 							"15000"
+		"damage_near_distance"							"200"
+		"damage_far_distance" 							"1200"
 
 		"red_crosshair_range" 							"1800"
 
