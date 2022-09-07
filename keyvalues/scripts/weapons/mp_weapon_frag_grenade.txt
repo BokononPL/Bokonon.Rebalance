@@ -126,7 +126,7 @@ WeaponData
 	"critical_hit"									"0"
 
 	"explosion_inner_radius"						"5"
-	"explosionradius"								"380"
+	"explosionradius"								"400"
 	"impulse_force"									"500"
 	"impulse_force_explosions"						"50000"
 	"explosion_shake_radius"						"500"
