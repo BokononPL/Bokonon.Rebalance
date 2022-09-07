@@ -281,7 +281,7 @@ WeaponData
 	// View Kick
 	"viewkick_spring" 								"car"
 
-	"viewkick_pitch_base" 							"-0.15"
+	"viewkick_pitch_base" 							"-0.3"
 	"viewkick_pitch_random"   						"0.35"
 	"viewkick_pitch_softScale"						"1.2"
 	"viewkick_pitch_hardScale"						"0.9"
