@@ -502,15 +502,15 @@ WeaponData
 		}
 		pas_fast_reload
 		{
-			"reload_time"								"*0.7"
-			"reload_time_late1"							"*0.7"
-			"reloadempty_time"							"*0.7"
-			"reloadempty_time_late1"					"*0.7"
+			"reload_time"								"*0.8"
+			"reload_time_late1"							"*0.8"
+			"reloadempty_time"							"*0.8"
+			"reloadempty_time_late1"					"*0.8"
 		}
 		pas_fast_ads
 		{
 			//Fast ADS
-			"zoom_time_in"									"*0.5"
+			"zoom_time_in"									"*0.1"
 			"zoom_time_out"   								"*0.6"
 		}
 		pas_fast_swap
