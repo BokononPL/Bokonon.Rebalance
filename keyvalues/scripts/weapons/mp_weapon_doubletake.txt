@@ -136,8 +136,8 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"precise"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"30"
-		"damage_far_value"								"30"
+		"damage_near_value"   							"25"
+		"damage_far_value"								"25"
 		"damage_near_value_titanarmor"					"165"
 		"damage_far_value_titanarmor" 					"165"
 		"damage_rodeo" 									"80"
@@ -247,7 +247,7 @@ WeaponData
 	"dof_nearDepthEnd"								"5.366"
 
 	// Behavior
-	"fire_rate"   									"2.0"//2"
+	"fire_rate"   									"2.3"//2"
 	"zoom_time_in"									"0.4"//0.35"
 	"zoom_time_out"   								"0.3"
 	"zoom_fov"										"26.26"
@@ -260,8 +260,8 @@ WeaponData
 	"reloadempty_time"								"3.4"
 	"reloadempty_time_late1"						"2.26"
 	"reloadempty_time_late2"						"1.26"
-	"holster_time"									"0.45"
-	"deploy_time" 									"0.6"
+	"holster_time"									"0.3"
+	"deploy_time" 									"0.4"
 	"lower_time"  									"0.25"
 	"raise_time"  									"0.3"
 	"vortex_refire_behavior"  						"bullet"

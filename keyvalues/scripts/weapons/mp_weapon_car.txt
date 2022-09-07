@@ -228,8 +228,8 @@ WeaponData
 	"reloadempty_time"								"2.53"
 	"reloadempty_time_late1"						"1.46"
 	"reloadempty_time_late2"						"0.79"
-	"holster_time"									"0.5"
-	"deploy_time" 									"0.66"
+	"holster_time"									"0.3"
+	"deploy_time" 									"0.4"
 	"lower_time"  									"0.25"
 	"raise_time"  									"0.3"
 	"vortex_refire_behavior"  						"bullet"
@@ -514,10 +514,10 @@ WeaponData
 		}
 		pas_fast_reload
 		{
-			"reload_time"								"*0.7"
-			"reload_time_late1"							"*0.7"
-			"reloadempty_time"							"*0.7"
-			"reloadempty_time_late1"					"*0.7"
+			"reload_time"								"*0.8"
+			"reload_time_late1"							"*0.8"
+			"reloadempty_time"							"*0.8"
+			"reloadempty_time_late1"					"*0.8"
 		}
 		extended_ammo
 		{
