@@ -591,7 +591,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		
 	if ( result.solidBodyHit )
 	{
-		damageAmount = damageAmount * 1.2 + 15
+		damageAmount = damageAmount * 1.4 + 15
 	}
 	else
 	{
@@ -601,11 +601,11 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		}
 		else if (angle < 1.0)
 		{
-			damageAmount += 8
+			damageAmount += 10
 		}
 		else
 		{	
-			damageAmount = max(2.0, (damageAmount - angle * angle * 2))
+			damageAmount = max(2.0, (damageAmount - angle * angle * 3))
 		}
 	}
 
