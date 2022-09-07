@@ -12,6 +12,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - All LMGs<br>
 - All Shotguns<br>
 - DMR<br>
+- Charge Rifle<br>
 - Frag Grenade<br>
 - Gravity Star<br>
 - Melee<br>
@@ -57,6 +58,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
 - Frag Grenade: Pilot damage 200 -> 140
+- Charge Rifle: Added falloff
 - Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 75
