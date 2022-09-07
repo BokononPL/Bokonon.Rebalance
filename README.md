@@ -42,7 +42,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
 - Hemlok: Damage 33 -> 30
-- Spitfire: Damage 35 -> 28
+- Spitfire: Damage 35 -> 25
 - Devotion: Damage 25 -> 22
 - L-Star: Damage 25 -> 20
 - DMR: Increased falloff
