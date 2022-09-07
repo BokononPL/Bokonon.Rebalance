@@ -112,8 +112,8 @@ WeaponData
 
 		"aimassist_adspull_weaponclass"					"precise"
 
-		"damage_near_value"   							"28"
-		"damage_far_value"								"19"
+		"damage_near_value"   							"23"
+		"damage_far_value"								"20"
 		"damage_very_far_value"							"13"
 		"damage_near_value_titanarmor"					"80"
 		"damage_far_value_titanarmor" 					"60"
@@ -233,8 +233,8 @@ WeaponData
 	"reloadempty_time"								"3.33"
 	"reloadempty_time_late1"						"2.33"
 	"reloadempty_time_late2"						"1.23"
-	"holster_time"									"0.6"
-	"deploy_time" 									"0.9"
+	"holster_time"									"0.4"
+	"deploy_time" 									"0.6"
 	"lower_time"  									"0.2"
 	"raise_time"  									"0.3"
 	"vortex_refire_behavior"  						"bullet"
@@ -554,10 +554,10 @@ WeaponData
 		}
 		pas_fast_reload
 		{
-			"reload_time"								"*0.7"
-			"reload_time_late1"							"*0.7"
-			"reloadempty_time"							"*0.7"
-			"reloadempty_time_late1"					"*0.7"
+			"reload_time"								"*0.8"
+			"reload_time_late1"							"*0.8"
+			"reloadempty_time"							"*0.8"
+			"reloadempty_time_late1"					"*0.8"
 		}
 		pas_fast_ads
 		{
