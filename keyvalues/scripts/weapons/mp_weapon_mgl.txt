@@ -81,7 +81,7 @@ WeaponData
 	"npc_miss_fast_player"							"0"
 
 	"explosion_inner_radius"  						"130"
-	"explosionradius" 								"240"
+	"explosionradius" 								"270"
 	"impulse_force"   								"700"
 
 	"critical_hit"									"0"
@@ -93,8 +93,8 @@ WeaponData
 
 	MP_BASE
 	{
-		"ammo_default_total"							"30"
-		"ammo_stockpile_max"							"30"
+		"ammo_default_total"							"48"
+		"ammo_stockpile_max"							"48"
 		"ammo_no_remove_from_stockpile"					"0"
 		"ammo_min_to_fire"								"1"
 
@@ -204,8 +204,8 @@ WeaponData
 	"reloadempty_time_late1"						"2.75"
 	"reloadempty_time_late2"						"2.00"
 	"reloadempty_time_late3"						"1.08"
-	"holster_time"									"0.5"
-	"deploy_time" 									"0.8"
+	"holster_time"									"0.4"
+	"deploy_time" 									"0.6"
 	"lower_time"  									"0.25"
 	"raise_time"  									"0.3"
 	"vortex_refire_behavior"  						"grenade"
@@ -425,8 +425,8 @@ WeaponData
 		extended_ammo
 		{
 			"ammo_clip_size"   					"8"
-			"ammo_stockpile_max"						"40"
-			"ammo_default_total"						"40"
+			"ammo_stockpile_max"						"56"
+			"ammo_default_total"						"56"
 		}
 		pro_screen
 		{
