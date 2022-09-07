@@ -157,7 +157,7 @@ WeaponData
 		"explosion_damage_heavy_armor"					"175"
 		"explosion_damages_owner"						"1"
 		"explosion_damage"								"40"
-		"explosion_inner_radius"  						"60"
+		"explosion_inner_radius"  						"40"
 		"explosionradius" 								"150"
 
 		"damage_heavyarmor_nontitan_scale"				"0.5"
