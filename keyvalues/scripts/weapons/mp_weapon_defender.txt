@@ -71,18 +71,18 @@ WeaponData
 
 	MP_BASE
 	{
-		"ammo_default_total"							"15"
-		"ammo_stockpile_max"							"15"
+		"ammo_default_total"							"20"
+		"ammo_stockpile_max"							"20"
         "ammo_no_remove_from_stockpile"                 "0"
 
 		// Damage - When Used by Players
 		"damage_near_value"   							"200"
-		"damage_far_value"								"60"
+		"damage_far_value"								"200"
 		"damage_near_value_titanarmor"					"1025"
 		"damage_far_value_titanarmor" 					"725"
 		"damage_rodeo"									"2000"
 		"damage_near_distance"							"1500"
-		"damage_far_distance" 							"2200"
+		"damage_far_distance" 							"3500"
 
 		"red_crosshair_range" 							"10000"
 
@@ -413,8 +413,8 @@ WeaponData
         }
         extended_ammo
 		{
-			"ammo_stockpile_max"				"20"
-			"ammo_default_total"				"20"
+			"ammo_stockpile_max"				"25"
+			"ammo_default_total"				"25"
 		}
 		burn_mod_defender
 		{
