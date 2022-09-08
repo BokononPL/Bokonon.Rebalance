@@ -81,8 +81,8 @@ WeaponData
 		"damage_near_value_titanarmor"					"1025"
 		"damage_far_value_titanarmor" 					"725"
 		"damage_rodeo"									"2000"
-		"damage_near_distance"							"900"
-		"damage_far_distance" 							"1800"
+		"damage_near_distance"							"1500"
+		"damage_far_distance" 							"2200"
 
 		"red_crosshair_range" 							"10000"
 
@@ -185,8 +185,8 @@ WeaponData
 	"zoom_fov"										"45"
 	"reload_time" 									"3.5"
 	"reloadempty_time"								"3.5"
-	"holster_time"									"0.5"
-	"deploy_time" 									"1.3"
+	"holster_time"									"0.6"
+	"deploy_time" 									"1.7"
 	"lower_time"  									"0.25"
 	"raise_time"  									"0.3"
 	"charge_time" 									"1.3"
@@ -447,8 +447,8 @@ WeaponData
 			//"damage_far_value"								"300"
 			//"damage_near_value_titanarmor"					"825"
 			//"damage_far_value_titanarmor" 					"825"
-			"damage_near_value"   							"--250" //55
-			"damage_far_value"								"--250"  //45
+			"damage_near_value"   							"70" //55
+			"damage_far_value"								"50"  //45
 			"damage_near_value_titanarmor"					"--325"
 			"damage_far_value_titanarmor" 					"--325"
 
