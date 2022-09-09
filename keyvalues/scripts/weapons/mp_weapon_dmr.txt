@@ -233,13 +233,13 @@ WeaponData
 
 
 	// Spread
-	"spread_stand_hip" 								"10"
+	"spread_stand_hip" 								"8"
 	"spread_stand_hip_run" 							"10"
-	"spread_stand_ads"  							"0"
-	"spread_crouch_hip"								"10"
+	"spread_stand_ads"  							"0.05"
+	"spread_crouch_hip"								"6"
 	"spread_crouch_ads"  							"0"
 	"spread_air_hip"	   							"10"
-	"spread_air_ads"   								"0"
+	"spread_air_ads"   								".15"
 
 	"ammo_suck_behavior"							"primary_weapons"
 

@@ -254,16 +254,16 @@ WeaponData
 	"spread_kick_on_fire_crouch_ads"  				"0"
 	"spread_kick_on_fire_air_ads" 					"0"
 
-	"spread_max_kick_stand_hip"   					"1.5"
-	"spread_max_kick_crouch_hip"  					"1.5"
-	"spread_max_kick_air_hip" 						"1.5"
+	"spread_max_kick_stand_hip"   					"2.0"
+	"spread_max_kick_crouch_hip"  					"2.0"
+	"spread_max_kick_air_hip" 						"2.0"
 
 	"spread_max_kick_stand_ads"   					"0"
 	"spread_max_kick_crouch_ads"  					"0"
 	"spread_max_kick_air_ads" 						"0"
 
-	"spread_wallrunning"  							"1.0"
-	"spread_wallhanging"  							"1.0"
+	"spread_wallrunning"  							"5.0"
+	"spread_wallhanging"  							"6.5"
 
 	"spread_decay_delay"  							"0.1"
 	"spread_decay_rate"   							"4"

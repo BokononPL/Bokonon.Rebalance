@@ -179,8 +179,8 @@ WeaponData
 		"viewdrift_ads_speed_pitch"   					"0.65"
 		"viewdrift_ads_speed_yaw" 						"0.75"
 
-		"viewkick_air_scale_ads"						"1"
-		"spread_air_hip"  								"0"
+		"viewkick_air_scale_ads"						"1.5"
+		"spread_air_hip"  								"1.5"
 	}
 
 	SP_BASE
