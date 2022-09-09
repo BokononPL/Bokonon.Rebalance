@@ -197,7 +197,7 @@ WeaponData
 
 
 	// Behavior
-	"fire_rate"   									"3.0"
+	"fire_rate"   									"3.5"
 	"zoom_time_in"									"0.4"
 	"zoom_time_out"   								"0.3"
 	"zoom_fov"										"30"
@@ -205,11 +205,11 @@ WeaponData
 	"zoom_scope_frac_end"							"1.0"
 	"zoom_angle_shift_pitch"						"0.3"
 	"zoom_angle_shift_yaw"							"0.65"
-	"reload_time" 									"2.66"
-	"reload_time_late1" 							"1.23"
-	"reloadempty_time"								"3.66"
-	"reloadempty_time_late1"						"2.25"
-	"reloadempty_time_late2"						"1.26"
+	"reload_time" 									"2.2"
+	"reload_time_late1" 							"1.0"
+	"reloadempty_time"								"3.0"
+	"reloadempty_time_late1"						"1.8"
+	"reloadempty_time_late2"						"0.8"
 	"holster_time"									"0.4"
 	"deploy_time" 									"0.5"
 	"lower_time"  									"0.25"
