@@ -140,8 +140,8 @@ WeaponData
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
 
-		"viewkick_air_scale_ads"						"0"
-		"spread_air_hip"  								"3.0"
+		"viewkick_air_scale_ads"						"2.0"
+		"spread_air_hip"  								"5.0"
 
 		"damage_heavyarmor_nontitan_scale"				"0.35"
 	}

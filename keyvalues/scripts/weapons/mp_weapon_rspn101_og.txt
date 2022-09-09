@@ -259,15 +259,15 @@ WeaponData
 
 	// Spread
 
-	"spread_stand_hip"							"2"
-	"spread_stand_hip_run"							"2"
-	"spread_stand_hip_sprint"                       			"2"
-	"spread_crouch_hip"   							"2"
+	"spread_stand_hip"								"2.0"
+	"spread_stand_hip_run"							"2.0"
+	"spread_stand_hip_sprint"                       "2.0"
+	"spread_crouch_hip"   							"2.0"
 
 
-	"spread_stand_ads"							"0"
+	"spread_stand_ads"								"0"
 	"spread_crouch_ads"   							"0"
-	"spread_air_ads"  							"0"
+	"spread_air_ads"  								"0"
 
 	"spread_kick_on_fire_stand_hip"   				"0.5"
 	"spread_kick_on_fire_crouch_hip"  				"0.5"
@@ -278,15 +278,15 @@ WeaponData
 	"spread_kick_on_fire_crouch_ads"  				"0"
 	"spread_kick_on_fire_air_ads" 					"0"
 
-	"spread_max_kick_stand_hip"   					"8"
-	"spread_max_kick_crouch_hip"  					"8"
-	"spread_max_kick_air_hip" 						"8"
+	"spread_max_kick_stand_hip"   					"8.0"
+	"spread_max_kick_crouch_hip"  					"5.0"
+	"spread_max_kick_air_hip" 						"8.0"
 
 	"spread_max_kick_stand_ads"   					"0"
 	"spread_max_kick_crouch_ads"  					"0"
 	"spread_max_kick_air_ads" 						"0"
 
-	"spread_wallhanging"  							"2"
+	"spread_wallhanging"  							"6.5"
 
 	"spread_decay_delay"  							"0.05"
 	"spread_decay_rate"   							"5"
