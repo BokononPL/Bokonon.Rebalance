@@ -34,7 +34,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 
 - Melee: Damage 100 -> 60
 - CAR: Damage 25 -> 15
-- R-97: Damage 20 -> 13
+- R-97: Damage 20 -> 14
 - Alternator: Damage 35 -> 22
 - Volt: Damage 25 -> 18
 - P2016: Damage 30 -> 20
@@ -42,7 +42,6 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - R-101 and R-201: Damage 25 -> 18
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
-- Hemlok: Damage 33 -> 30
 - Spitfire: Damage 35 -> 25
 - Devotion: Damage 25 -> 22
 - L-Star: Damage 25 -> 20
@@ -58,7 +57,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
 - Frag Grenade: Pilot damage 200 -> 140
-- Charge Rifle: Added falloff
+- Charge Rifle: Slower swap
 - Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 75
