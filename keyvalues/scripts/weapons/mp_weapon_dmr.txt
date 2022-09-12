@@ -113,7 +113,7 @@ WeaponData
 		"damage_far_value_titanarmor" 					"430"
 		"damage_rodeo" 									"400"
 		"damage_near_distance"							"1000"
-		"damage_far_distance" 							"2500"
+		"damage_far_distance" 							"1600"
 
 		"red_crosshair_range" 							"4500"
 
