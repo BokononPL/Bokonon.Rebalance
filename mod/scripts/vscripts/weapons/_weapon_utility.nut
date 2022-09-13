@@ -601,7 +601,7 @@ int function ShotgunBlastDamageEntity( entity weapon, vector barrelPos, vector b
 		}
 		else if (angle < 1.0)
 		{
-			damageAmount += 10
+			damageAmount = damageAmount * 1.1
 		}
 		else
 		{	
