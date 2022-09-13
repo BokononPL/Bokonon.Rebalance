@@ -67,7 +67,7 @@ WeaponData
 
 	"npc_self_explosion_safety"						"0"
 
-	"explosion_inner_radius"  						"30"
+	"explosion_inner_radius"  						"0"
 	"explosionradius" 								"150"
 	"impulse_force"   								"7000"
 
