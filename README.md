@@ -10,7 +10,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - All SMGs<br>
 - All ARs<br>
 - All LMGs<br>
-- All Shotguns<br>
+- EVA-8<br>
 - DMR<br>
 - Wingman Elite<br>
 - Charge Rifle<br>
@@ -37,10 +37,10 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - CAR: Damage 25 -> 15
 - R-97: Damage 20 -> 14
 - Alternator: Damage 35 -> 22
-- Volt: Damage 25 -> 18
+- Volt: Damage 25 -> 17
 - P2016: Damage 30 -> 20
-- RE-45: Damage 20 -> 12
-- R-101 and R-201: Damage 25 -> 18
+- RE-45: Damage 20 -> 14
+- R-101 and R-201: Damage 25 -> 20
 - Flatline: Damage 30 -> 20
 - G2: Increased falloff
 - Spitfire: Damage 35 -> 25
@@ -49,7 +49,6 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - DMR: Increased falloff
 - EVA-8: Improved damage calculation
 - Mozambique: Damage 30 -> 25
-- Mastiff: Damage 20 -> 17
 - Wingman Elite: Increased falloff
 - SMR: Explosion damage 15 -> 20, reduced damage at short range
 - Softball: Explosion damage 90 -> 100
