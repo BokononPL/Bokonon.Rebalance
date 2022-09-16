@@ -88,8 +88,8 @@ WeaponData
    "titanarmor_critical_hit_required"              "1"
 	"critical_hit"									"1"
 
-	"damage_near_distance"							"600"
-	"damage_far_distance" 							"900"
+	"damage_near_distance"							"250"
+	"damage_far_distance" 							"450"
 	"red_crosshair_range" 							"1000"
 
 	"aimassist_adspull_zoomStart"					"0.05"
@@ -110,14 +110,14 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"broad"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"13"
-		"damage_far_value"								"9"
+		"damage_near_value"   							"15"
+		"damage_far_value"								"13"
 		"damage_near_value_titanarmor"					"70"
 		"damage_far_value_titanarmor" 					"35"
 		"damage_rodeo" 									"90"
 
    	 	"damage_very_far_value"							"8"
-   		"damage_very_far_distance"						"1600"
+   		"damage_very_far_distance"						"900"
 
 		"damage_headshot_scale"							"1.5"
 
