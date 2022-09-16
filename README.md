@@ -36,7 +36,7 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Melee: Damage 100 -> 60
 - CAR: Damage 25 -> 15
 - R-97: Damage 20 -> 14
-- Alternator: Damage 35 -> 22
+- Alternator: Damage 35 -> 20
 - Volt: Damage 25 -> 17
 - P2016: Damage 30 -> 20
 - RE-45: Damage 20 -> 14
