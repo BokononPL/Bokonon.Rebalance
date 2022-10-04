@@ -15,8 +15,8 @@ void function OnPlayerKilled( entity victim, entity attacker, var damageInfo )
     }
 
     if (healonkill_enabled && attacker != victim && IsAlive(attacker)) {
-        //attacker.SetHealth(attacker.GetMaxHealth())
-        ResetRegenTime(attacker)
+        attacker.SetHealth(attacker.GetMaxHealth())
+        //ResetRegenTime(attacker)
     }
 
     array<entity> weapons = attacker.GetMainWeapons()
