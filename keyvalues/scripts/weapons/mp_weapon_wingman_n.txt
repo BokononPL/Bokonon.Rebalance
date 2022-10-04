@@ -190,7 +190,6 @@ WeaponData
 	"empty_reload_only"   							"0"
 	"trigger_snipercam"   							"0"
 	"allow_headshots" 								"1"
-	"headshot_distance" 							"400"
 	"primary_fire_does_not_block_sprint"			"0"
 	"ads_move_speed_scale"							"0.75"
 	"aimassist_disable_hipfire"						"0"
