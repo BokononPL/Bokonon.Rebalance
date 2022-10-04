@@ -28,16 +28,16 @@ void function OnPlayerKilled( entity victim, entity attacker, var damageInfo )
         string weaponname = weapon.GetWeaponClassName()
         switch (weaponname) {
             case "mp_weapon_mgl":
-                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 4, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                weapon.SetWeaponPrimaryAmmoCount(min(weapon.GetWeaponPrimaryAmmoCount() + 4, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
                 break
             case "mp_weapon_rocket_launcher":
-                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                weapon.SetWeaponPrimaryAmmoCount(min(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
                 break
             case "mp_weapon_arc_launcher":
-                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                weapon.SetWeaponPrimaryAmmoCount(min(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
                 break
             case "mp_weapon_defender":
-                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                weapon.SetWeaponPrimaryAmmoCount(min(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
                 break
             default:
                 break
