@@ -104,13 +104,13 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"precise"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"30"
-		"damage_far_value"								"23"
+		"damage_near_value"   							"35"
+		"damage_far_value"								"20"
 		"damage_near_value_titanarmor"					"75"
 		"damage_far_value_titanarmor" 					"45"
 		"damage_rodeo" 									"170"
-		"damage_near_distance"							"800"
-		"damage_far_distance" 							"1200"
+		"damage_near_distance"							"700"
+		"damage_far_distance" 							"1300"
 
    	 	"damage_very_far_value"							"17"
    		"damage_very_far_distance"						"2500"
@@ -208,7 +208,7 @@ WeaponData
 	// Behavior
 	"fire_rate"   									"15.5"
 	"burst_fire_count"								"3"
-	"burst_fire_delay"								"0.25"
+	"burst_fire_delay"								"0.7"
 	"zoom_time_in"									"0.25"
 	"zoom_time_out"   								"0.2"
 	"zoom_fov"										"35"
