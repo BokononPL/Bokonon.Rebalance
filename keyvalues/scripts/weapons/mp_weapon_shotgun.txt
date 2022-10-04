@@ -93,15 +93,15 @@ WeaponData
 		"ammo_clip_size"   								"6"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"85"
+		"damage_near_value"   							"100"
 		"damage_far_value"								"2"
 		"damage_near_value_titanarmor"					"300"
 		"damage_far_value_titanarmor" 					"10"
 		"damage_rodeo" 									"550"
-		"damage_near_distance"							"200"
+		"damage_near_distance"							"100"
 		"damage_far_distance" 							"1300"
 
-		"damage_headshot_scale"							"1.25"
+		"damage_headshot_scale"							"1.2"
 
 		"red_crosshair_range" 							"750"
 
