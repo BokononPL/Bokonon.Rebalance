@@ -1,6 +1,21 @@
 {
 	"Name" : "Bokonon.Rebalance",
 	"Description" : "Rebalancing mod adjusting stats of weapons",
-	"Version": "1.7.2",
-	"LoadPriority": 1
+	"Version": "1.8.0",
+	"LoadPriority": 2,
+	"ConVars": [
+        {
+            "Name": "healonkill",
+            "DefaultValue": "1"
+        }
+    ],
+    "Scripts": [
+        {
+            "Path": "scavenger.gnut",
+            "RunOn": "SERVER && MP",
+            "ServerCallback": {
+                "After": "Scavenger_Init"
+            }
+        }
+    ]
 }

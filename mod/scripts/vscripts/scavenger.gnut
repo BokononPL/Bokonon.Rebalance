@@ -1,0 +1,46 @@
+global function Scavenger_Init
+
+bool healonkill_enabled
+
+void function Scavenger_Init() {
+    healonkill_enabled = GetConVarBool("healonkill")
+
+    AddCallback_OnPlayerKilled(OnPlayerKilled)
+}
+
+void function OnPlayerKilled( entity victim, entity attacker, var damageInfo )
+{
+    if (!victim.IsPlayer() || !attacker.IsPlayer() || !IsPilot(attacker) || GetGameState() != eGameState.Playing) {
+        return
+    }
+
+    if (healonkill_enabled && attacker != victim && IsAlive(attacker)) {
+        //attacker.SetHealth(attacker.GetMaxHealth())
+        ResetRegenTime(attacker)
+    }
+
+    array<entity> weapons = attacker.GetMainWeapons()
+    foreach (entity weapon in weapons){
+        if (!weapon) {
+            continue
+        }
+
+        string weaponname = weapon.GetWeaponClassName()
+        switch (weaponname) {
+            case "mp_weapon_mgl":
+                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 4, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                break
+            case "mp_weapon_rocket_launcher":
+                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                break
+            case "mp_weapon_arc_launcher":
+                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                break
+            case "mp_weapon_defender":
+                weapon.SetWeaponPrimaryAmmoCount(max(weapon.GetWeaponPrimaryAmmoCount() + 1, weapon.GetWeaponSettingInt( eWeaponVar.ammo_stockpile_max )))
+                break
+            default:
+                break
+        }
+    }
+}

@@ -43,7 +43,7 @@ WeaponData
 		"ammo_per_shot"									"200"
 		"ammo_stockpile_max"							"200"
 		"fire_duration"									"3.0"
-		"regen_ammo_refill_rate"						"6"
+		"regen_ammo_refill_rate"						"5.5"
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
 	}
