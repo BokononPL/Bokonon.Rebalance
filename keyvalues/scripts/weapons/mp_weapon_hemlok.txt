@@ -208,7 +208,7 @@ WeaponData
 	// Behavior
 	"fire_rate"   									"15.5"
 	"burst_fire_count"								"3"
-	"burst_fire_delay"								"0.4"
+	"burst_fire_delay"								"0.5"
 	"zoom_time_in"									"0.25"
 	"zoom_time_out"   								"0.2"
 	"zoom_fov"										"35"
