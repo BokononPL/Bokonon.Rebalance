@@ -2,7 +2,7 @@
 	"Name" : "Bokonon.Rebalance",
 	"Description" : "Rebalancing mod adjusting stats of weapons",
 	"Version": "1.8.0",
-	"LoadPriority": 5,
+	"LoadPriority": 1,
 	"ConVars": [
         {
             "Name": "healonkill",
