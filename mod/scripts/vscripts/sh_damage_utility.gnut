@@ -12,7 +12,8 @@ global function CritWeaponInDamageInfo
 global function GetCriticalScaler
 global function HeavyArmorCriticalHitRequired
 
-array<string> low_spread_weapons = ["mp_weapon_semipistol", "mp_weapon_autopistol"]
+array<string> low_spread_weapons = ["mp_weapon_semipistol", "mp_weapon_autopistol", "mp_weapon_r97", "mp_weapon_alternator", "mp_weapon_hemlok_smg"]
+array<string> high_spread_weapons = ["mp_weapon_wingman", "mp_weapon_lmg", "mp_weapon_esaw", "mp_weapon_g2", "mp_weapon_hemlok", "mp_weapon_rspn101", "mp_weapon_rspn101_og", "mp_weapon_vinson"]
 
 #endif
 
@@ -119,7 +120,19 @@ bool function IsValidHeadShot( var damageInfo = null, entity victim = null, enti
 		}
 
 		if (low_spread_weapons.contains(weaponname)) {
-			if (attackDist > max(100.0, adsfrac * 2000.0))
+			if (attackDist > max(250.0, adsfrac * 1700.0))
+				return false
+		}
+		else if (high_spread_weapons.contains(weaponname)) {
+			if (attackDist > max(150.0, adsfrac * 2000.0))
+				return false
+		}
+		else if (weaponname == "mp_weapon_car") {
+			if (attackDist > max(400.0, adsfrac * 1700.0))
+				return false
+		}
+		else if (weaponname == "mp_weapon_dmr") {
+			if (attackDist > max(50.0, adsfrac * 3000.0))
 				return false
 		}
 		else {
