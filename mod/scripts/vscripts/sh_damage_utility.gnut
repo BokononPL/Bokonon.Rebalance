@@ -109,7 +109,14 @@ bool function IsValidHeadShot( var damageInfo = null, entity victim = null, enti
 	if ( IsValid( weapon ) )
 	{
 		string weaponname = weapon.GetWeaponClassName()
-		float adsfrac = expect float(attacker.GetAdsFraction())
+		entity owner = weapon.GetOwner()
+		float adsfrac = 0.0
+
+		if ( IsValid( owner ) ) {
+			if( owner.IsPlayer() ) {
+				adsfrac = owner.GetZoomFrac()
+			}
+		}
 
 		if (low_spread_weapons.contains(weaponname)) {
 			if (attackDist > max(100.0, adsfrac * 2000.0))
