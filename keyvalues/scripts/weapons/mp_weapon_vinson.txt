@@ -119,7 +119,7 @@ WeaponData
    	 	"damage_very_far_value"							"15"
    		"damage_very_far_distance"						"2500"
 
-		"damage_headshot_scale"							"1.5"
+		"damage_headshot_scale"							"2.0"
 
 		"red_crosshair_range" 							"1500"
 
