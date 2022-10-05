@@ -117,7 +117,7 @@ WeaponData
    	 	"damage_very_far_value"							"10"
    		"damage_very_far_distance"						"900"
 
-		"damage_headshot_scale"							"1.5"
+		"damage_headshot_scale"							"2.0"
 
 		"npc_damage_near_value"   						"15"
 		"npc_damage_far_value"							"10"
