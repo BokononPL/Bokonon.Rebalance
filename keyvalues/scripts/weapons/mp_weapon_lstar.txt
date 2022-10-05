@@ -339,7 +339,7 @@ WeaponData
 		"damage_near_distance"							"600"
 		"damage_far_distance" 							"700"
 
-		"damage_headshot_scale"							"1.5"
+		"damage_headshot_scale"							"1.25"
 
 		"red_crosshair_range" 							"1800"
 
