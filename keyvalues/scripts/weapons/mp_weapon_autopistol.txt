@@ -127,7 +127,7 @@ WeaponData
 		"npc_damage_near_distance"						"400"
 		"npc_damage_far_distance" 						"800"
 
-		"damage_headshot_scale"							"1.5"
+		"damage_headshot_scale"							"2.0"
 
 		// NPC
 		"npc_min_engage_range"							"0"
