@@ -11,6 +11,9 @@ global function IsSuicide
 global function CritWeaponInDamageInfo
 global function GetCriticalScaler
 global function HeavyArmorCriticalHitRequired
+
+array<string> low_spread_weapons = ["mp_weapon_semipistol", "mp_weapon_autopistol"]
+
 #endif
 
 #if CLIENT
@@ -105,13 +108,21 @@ bool function IsValidHeadShot( var damageInfo = null, entity victim = null, enti
 
 	if ( IsValid( weapon ) )
 	{
-		if ( !( "headshotDistance" in weapon.s ) )
-			weapon.s.headshotDistance <- weapon.GetMaxDamageFarDist()
+		string weaponname = weapon.GetWeaponClassName()
+		float adsfrac = attacker.GetAdsFraction()
 
-		Assert( weapon.s.headshotDistance != null )
-		if ( attackDist > weapon.s.headshotDistance )
-			return false
+		if (low_spread_weapons.contains(weaponname)) {
+			if (attackDist > max(100.0, adsfrac * 2000.0))
+				return false
+		}
+		else {
+			if ( !( "headshotDistance" in weapon.s ) )
+				weapon.s.headshotDistance <- weapon.GetMaxDamageFarDist()
 
+			Assert( weapon.s.headshotDistance != null )
+			if ( attackDist > weapon.s.headshotDistance )
+				return false
+		}
 		return weapon.GetAllowHeadShots()
 	}
 	else if ( IsValid( inflictor ) && inflictor.IsProjectile() )
