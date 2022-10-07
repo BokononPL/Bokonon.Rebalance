@@ -120,19 +120,19 @@ bool function IsValidHeadShot( var damageInfo = null, entity victim = null, enti
 		}
 
 		if (low_spread_weapons.contains(weaponname)) {
-			if (attackDist > max(300.0, adsfrac * 1700.0))
+			if (attackDist > max(300.0, (adsfrac - 0.5) * 3200.0))
 				return false
 		}
 		else if (high_spread_weapons.contains(weaponname)) {
-			if (attackDist > max(150.0, adsfrac * 2000.0))
+			if (attackDist > max(150.0, (adsfrac - 0.5) * 4000.0))
 				return false
 		}
 		else if (weaponname == "mp_weapon_car") {
-			if (attackDist > max(500.0, adsfrac * 1700.0))
+			if (attackDist > max(500.0, (adsfrac - 0.5) * 3200.0))
 				return false
 		}
 		else if (weaponname == "mp_weapon_dmr") {
-			if (attackDist > max(70.0, adsfrac * 3500.0))
+			if (attackDist > max(70.0, (adsfrac - 0.5) * 6000.0))
 				return false
 		}
 		else {
