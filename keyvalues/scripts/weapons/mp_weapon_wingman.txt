@@ -93,7 +93,7 @@ WeaponData
 		// Damage - When Used by Players
 		"damage_near_value"   							"40"
 		"damage_far_value"								"40"
-		"damage_near_distance"							"500"
+		"damage_near_distance"							"900"
 		"damage_far_distance" 							"1500"
 		"damage_near_value_titanarmor"					"250"
 		"damage_far_value_titanarmor" 					"200"
@@ -427,7 +427,7 @@ WeaponData
 			"fire_sound_2_player_3p"			"Weapon_Wingman_FireSuppressed_3P"
 			"fire_sound_2_npc"					"Weapon_Wingman_FireSuppressed_NPC"
 			"damage_near_value"   				"--0"
-			"damage_far_value"					"--5"
+			"damage_far_value"					"--10"
 			"damage_very_far_value"				"--5"
 			"bodygroup2_set"					"1"
 			
