@@ -48,7 +48,6 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - DMR: Increased falloff
 - EVA-8: Improved damage calculation
 - Mozambique: Damage 30 -> 25
-- Wingman Elite: Increased falloff
 - SMR: Explosion damage 15 -> 20, reduced damage at short range
 - Softball: Explosion damage 90 -> 100
 - B3 Wingman: Fire rate 2.6 -> 3.7
@@ -57,7 +56,6 @@ In a nutshell, what I want is for players to be able to play any gun they find t
 - Satchel: Pilot damage 125 -> 140
 - Gravity Star: 25% slower recharge
 - Frag Grenade: Pilot damage 200 -> 140
-- Charge Rifle: Slower swap
 - Thunderbolt: Increased damage to pilots
 - Archer: Dumbfire enabled, reduced splash
 - MGL: Explosion damage 35 -> 75
