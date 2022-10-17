@@ -113,8 +113,8 @@ WeaponData
 		"damage_near_value_titanarmor"					"100"
 		"damage_far_value_titanarmor" 					"80"
 		"damage_rodeo" 									"100"
-		"damage_near_distance"							"1000"
-		"damage_far_distance" 							"1400"
+		"damage_near_distance"							"1200"
+		"damage_far_distance" 							"1600"
 
    	 	"damage_very_far_value"							"15"
    		"damage_very_far_distance"						"2500"
