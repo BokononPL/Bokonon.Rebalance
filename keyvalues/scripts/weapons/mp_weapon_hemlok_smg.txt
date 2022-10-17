@@ -93,8 +93,8 @@ WeaponData
    "titanarmor_critical_hit_required"              "1"
 	"critical_hit"									"1"
 
-	"damage_near_distance"							"250"
-	"damage_far_distance" 							"450"
+	"damage_near_distance"							"350"
+	"damage_far_distance" 							"550"
 	"red_crosshair_range" 							"1000"
 
 
