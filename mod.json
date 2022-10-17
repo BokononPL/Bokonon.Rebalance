@@ -1,7 +1,7 @@
 {
 	"Name" : "Bokonon.Rebalance",
 	"Description" : "Rebalancing mod adjusting stats of weapons",
-	"Version": "1.8.0",
+	"Version": "1.8.1",
 	"LoadPriority": 1,
 	"ConVars": [
         {
