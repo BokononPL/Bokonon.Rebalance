@@ -116,8 +116,8 @@ WeaponData
 
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"20"
-		"damage_far_value"								"18"
+		"damage_near_value"   							"25"
+		"damage_far_value"								"20"
 		"damage_very_far_value"							"14"
 		"damage_near_value_titanarmor"					"80"
 		"damage_far_value_titanarmor" 					"60"
